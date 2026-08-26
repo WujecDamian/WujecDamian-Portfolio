@@ -26,14 +26,17 @@ export const ProjectCard = () => {
         <div>
           <h3 className={styles.card__title}>{t.project.gitxTitle}</h3>
           <p className={styles.card__blurb}>{t.project.gitxBlurb}</p>
-          <ul
-            className={`${skillStyles.skills__list} ${styles.card__stack}`}
-            aria-label={t.project.stackLabel}
-          >
-            {gitx.stack.map((id) => (
-              <SkillChip key={id} id={id} />
-            ))}
-          </ul>
+          <div className={styles.card__stack}>
+            <ul
+              className={skillStyles.skills__list}
+              aria-label={t.project.stackLabel}
+            >
+              {gitx.stack.map((id) => (
+                <SkillChip key={id} id={id} />
+              ))}
+            </ul>
+            <p className={styles.card__stackMore}>{t.project.stackMore}</p>
+          </div>
           <div className={styles.card__links}>
             <Link
               to={`/project/${gitx.id}`}

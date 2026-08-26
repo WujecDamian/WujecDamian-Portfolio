@@ -71,6 +71,7 @@ export const pl: Translation = {
     live: 'Podgląd na żywo',
     github: 'GitHub',
     stackLabel: 'Stack',
+    stackMore: 'plus pięć więcej',
   },
   education: {
     heading: 'Wykształcenie',

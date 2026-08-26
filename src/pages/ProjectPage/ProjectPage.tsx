@@ -48,11 +48,14 @@ export const ProjectPage = () => {
       </Link>
       <h1 className={styles.page__title}>{t.project.gitxTitle}</h1>
       <p className={styles.page__blurb}>{t.project.gitxBlurb}</p>
-      <ul className={skillStyles.skills__list} aria-label={t.project.stackLabel}>
-        {gitx.stack.map((id) => (
-          <SkillChip key={id} id={id} />
-        ))}
-      </ul>
+      <div className={styles.page__stack}>
+        <ul className={skillStyles.skills__list} aria-label={t.project.stackLabel}>
+          {gitx.stack.map((id) => (
+            <SkillChip key={id} id={id} />
+          ))}
+        </ul>
+        <p className={styles.page__stackMore}>{t.project.stackMore}</p>
+      </div>
 
       <section className={styles.block}>
         <h2 className={styles.block__title}>{t.caseStudy.problem}</h2>

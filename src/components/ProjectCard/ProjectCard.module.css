@@ -36,7 +36,17 @@
 }
 
 .card__stack {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
   margin-bottom: 16px;
+}
+
+.card__stackMore {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 14px;
 }
 
 .card__links {
