@@ -69,7 +69,7 @@ export const en = {
     live: "Live preview",
     github: "GitHub",
     stackLabel: "Stack",
-    stackMore: "plus five more",
+    stackMore: "+5 more...",
   },
   education: {
     heading: "Education",
