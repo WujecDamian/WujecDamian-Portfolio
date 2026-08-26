@@ -13,9 +13,10 @@ export const en = {
   },
   hero: {
     name: "Damian Wujec",
-    title: "Junior Full Stack Developer (Node.js / React)",
+    title:
+      "Junior Full Stack Developer | PostgreSQL · Express · React · Node.js",
     pitch:
-      "I build web apps with React and Node.js — APIs, auth, and PostgreSQL — and I am looking for my first junior full-stack role.",
+      "Building full applications from start to finish with the PERN stack. Passionate about constant growth and never-ending learning. Aiming to become really good at coding! Looking for my first junior full-stack role.",
     github: "GitHub",
     linkedin: "LinkedIn",
     downloadCv: "Download CV",
@@ -23,9 +24,9 @@ export const en = {
   },
   about: {
     heading: "About",
-    p1: "I am a junior full-stack developer from Biłgoraj, Poland. I like work that spans the UI, the API, and the database — not only one of those layers.",
-    p2: "GitX is my main proof of work: a social app with GitHub sign-in, a REST API, PostgreSQL, and Redis sessions.",
-    p3: "I trained as a Programmer Technician (INF.03 and INF.04). I am looking for a junior full-stack role where I can keep shipping real features.",
+    p1: "Hi, I’m Damian! I’ve been fascinated by building web applications for quite some time. I see programming as a path with no finish line - one that constantly demands learning new things and adapting to a rapidly changing environment. This suits me perfectly because even though my knowledge is limited, it allows me to stand out, which I find highly motivating.",
+    p2: "I love creating solutions that solve real problems. I’m looking for a role where I can grow with a team, learn from others, and bring mutual value.",
+    p3: "Programming is my long-term vision. I want to keep mastering the fundamentals and continuously grow my skills so I can leverage them with AI, while exploring everything new coming to this fast-moving field.",
   },
   skills: {
     heading: "Skills",
