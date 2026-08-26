@@ -14,15 +14,57 @@
 .link {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  gap: 8px;
   min-height: 44px;
   padding: 8px 16px;
   border-radius: 980px;
-  background: var(--bg-subtle);
-  color: var(--accent);
+  font-size: 17px;
   text-decoration: none;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
 }
 
 .link:hover {
   text-decoration: none;
+}
+
+.link--email {
+  background: var(--accent);
+  color: #fff;
+}
+
+.link--email:hover {
+  background: var(--accent-hover);
+}
+
+.link--github {
+  background: #181717;
+  color: #fff;
+}
+
+.link--github:hover {
+  background: #000;
+}
+
+.link--linkedin {
+  background: #0a66c2;
+  color: #fff;
+}
+
+.link--linkedin:hover {
+  background: #004182;
+}
+
+.link--cv {
+  background: var(--bg-subtle);
+  color: var(--accent);
+}
+
+.link--cv:hover {
   background: #ececef;
 }
