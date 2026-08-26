@@ -8,7 +8,8 @@
   --accent-hover: #0077ed;
   --shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
 
-  --sans: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto,
+  --sans:
+    -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif;
   --max: 980px;
   --header-h: 52px;
@@ -18,6 +19,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  corner-shape: squircle;
 }
 
 html {
