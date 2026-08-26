@@ -111,7 +111,7 @@ export const en = {
         bullets: [
           "Performed full-cycle vehicle detailing including paint correction, polishing, protective coatings, and interior restoration",
           "Prepared vehicles for resale by improving presentation quality to dealership standards",
-          "* Communicated in English within an international work environment while maintaining high productivity (12h shifts, 6 days/week)",
+          "Communicated in English within an international work environment while maintaining high productivity (12h shifts, 6 days/week)",
         ],
       },
       {
