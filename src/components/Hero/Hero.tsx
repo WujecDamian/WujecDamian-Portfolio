@@ -43,12 +43,8 @@ export const Hero = () => {
           </a>
         </div>
       </div>
-      <div
-        className={styles.hero__portrait}
-        role="img"
-        aria-label={t.hero.portraitAlt}
-      >
-        DW
+      <div className={styles.hero__portrait}>
+        <img src={site.portraitPath} alt={t.hero.portraitAlt} />
       </div>
     </section>
   )

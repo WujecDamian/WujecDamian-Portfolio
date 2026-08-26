@@ -19,7 +19,7 @@ export const en = {
     github: "GitHub",
     linkedin: "LinkedIn",
     downloadCv: "Download CV",
-    portraitAlt: "Portrait placeholder for Damian Wujec",
+    portraitAlt: "Portrait of Damian Wujec",
   },
   about: {
     heading: "About",

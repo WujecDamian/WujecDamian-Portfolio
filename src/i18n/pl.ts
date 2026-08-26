@@ -21,7 +21,7 @@ export const pl: Translation = {
     github: 'GitHub',
     linkedin: 'LinkedIn',
     downloadCv: 'Pobierz CV',
-    portraitAlt: 'Placeholder zdjęcia Damiana Wujca',
+    portraitAlt: 'Zdjęcie Damiana Wujca',
   },
   about: {
     heading: 'O mnie',
