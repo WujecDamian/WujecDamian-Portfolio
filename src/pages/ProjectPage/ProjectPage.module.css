@@ -78,21 +78,40 @@
 
 .link {
   display: inline-flex;
-  min-height: 44px;
   align-items: center;
-  padding: 8px 16px;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 8px 18px;
   border-radius: var(--radius-pill);
-  background: var(--accent);
-  color: #fff;
+  font-size: 17px;
   text-decoration: none;
+}
+
+.link__icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
 }
 
 .link:hover {
   text-decoration: none;
+}
+
+.link--live {
+  background: var(--accent);
+  color: #fff;
+}
+
+.link--live:hover {
   background: var(--accent-hover);
 }
 
-.link--ghost {
-  background: var(--bg-subtle);
-  color: var(--accent);
+.link--github {
+  background: #181717;
+  color: #fff;
+}
+
+.link--github:hover {
+  background: #000;
 }

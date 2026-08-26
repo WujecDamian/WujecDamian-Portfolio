@@ -37,3 +37,21 @@ export const MailIcon = ({ className }: IconProps) => (
     />
   </svg>
 )
+
+export const ArrowRightIcon = ({ className }: IconProps) => (
+  <svg className={className} viewBox="0 0 24 24" aria-hidden="true">
+    <path
+      fill="currentColor"
+      d="M12 4 10.59 5.41 16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+    />
+  </svg>
+)
+
+export const ExternalLinkIcon = ({ className }: IconProps) => (
+  <svg className={className} viewBox="0 0 24 24" aria-hidden="true">
+    <path
+      fill="currentColor"
+      d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14zM5 5h6v2H7v10h10v-4h2v6H5z"
+    />
+  </svg>
+)

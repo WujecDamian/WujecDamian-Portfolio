@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { gitx } from '../../data/site'
 import { useLanguage } from '../../i18n'
+import { ArrowRightIcon } from '../BrandIcon'
 import { Section } from '../Section'
 import styles from './ProjectCard.module.css'
 
@@ -39,7 +40,8 @@ export const ProjectCard = () => {
                 document.documentElement.dataset.vt = 'forward'
               }}
             >
-              {t.project.caseStudy}
+              {t.project.details}
+              <ArrowRightIcon className={styles.card__ctaIcon} />
             </Link>
             <a href={gitx.live} target="_blank" rel="noreferrer">
               {t.project.live}

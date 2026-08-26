@@ -1,6 +1,7 @@
 import { Link, useParams } from 'react-router-dom'
 import { gitx } from '../../data/site'
 import { useLanguage } from '../../i18n'
+import { ExternalLinkIcon, GitHubIcon } from '../../components/BrandIcon'
 import styles from './ProjectPage.module.css'
 
 export const ProjectPage = () => {
@@ -84,19 +85,21 @@ export const ProjectPage = () => {
         <h2 className={styles.block__title}>{t.caseStudy.links}</h2>
         <div className={styles.links}>
           <a
-            className={styles.link}
+            className={`${styles.link} ${styles['link--live']}`}
             href={gitx.live}
             target="_blank"
             rel="noreferrer"
           >
+            <ExternalLinkIcon className={styles.link__icon} />
             {t.project.live}
           </a>
           <a
-            className={`${styles.link} ${styles['link--ghost']}`}
+            className={`${styles.link} ${styles['link--github']}`}
             href={gitx.github}
             target="_blank"
             rel="noreferrer"
           >
+            <GitHubIcon className={styles.link__icon} />
             {t.project.github}
           </a>
         </div>

@@ -67,7 +67,7 @@ export const pl: Translation = {
     gitxTitle: 'GitX',
     gitxBlurb:
       'Pełnostackowa platforma społecznościowa dla programistów, inspirowana X (Twitterem).',
-    caseStudy: 'Case study',
+    details: 'Szczegóły',
     live: 'Podgląd na żywo',
     github: 'GitHub',
     stackLabel: 'Stack',

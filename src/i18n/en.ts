@@ -65,7 +65,7 @@ export const en = {
     gitxTitle: "GitX",
     gitxBlurb:
       "A full-stack social platform for developers, inspired by X (Twitter).",
-    caseStudy: "Case study",
+    details: "Details",
     live: "Live preview",
     github: "GitHub",
     stackLabel: "Stack",
