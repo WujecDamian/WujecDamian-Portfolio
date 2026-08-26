@@ -36,6 +36,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 8px;
   min-height: 44px;
   padding: 8px 18px;
   border-radius: 980px;
@@ -43,17 +44,32 @@
   text-decoration: none;
 }
 
+.hero__icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
 .hero__btn:hover {
   text-decoration: none;
 }
 
-.hero__btn--primary {
-  background: var(--accent);
+.hero__btn--github {
+  background: #181717;
   color: #fff;
 }
 
-.hero__btn--primary:hover {
-  background: var(--accent-hover);
+.hero__btn--github:hover {
+  background: #000;
+}
+
+.hero__btn--linkedin {
+  background: #0a66c2;
+  color: #fff;
+}
+
+.hero__btn--linkedin:hover {
+  background: #004182;
 }
 
 .hero__btn--secondary {
