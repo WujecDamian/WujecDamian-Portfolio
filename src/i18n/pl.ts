@@ -17,7 +17,8 @@ export const pl: Translation = {
     title: 'Junior Full Stack Developer (Node.js / React)',
     pitch:
       'Buduję aplikacje webowe w React i Node.js — API, uwierzytelnianie i PostgreSQL — i szukam pierwszej roli junior full-stack.',
-    viewProject: 'Zobacz GitX',
+    github: 'GitHub',
+    linkedin: 'LinkedIn',
     downloadCv: 'Pobierz CV',
     portraitAlt: 'Placeholder zdjęcia Damiana Wujca',
   },

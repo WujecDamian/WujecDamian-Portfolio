@@ -15,7 +15,8 @@ export const en = {
     title: 'Junior Full Stack Developer (Node.js / React)',
     pitch:
       'I build web apps with React and Node.js — APIs, auth, and PostgreSQL — and I am looking for my first junior full-stack role.',
-    viewProject: 'View GitX',
+    github: 'GitHub',
+    linkedin: 'LinkedIn',
     downloadCv: 'Download CV',
     portraitAlt: 'Portrait placeholder for Damian Wujec',
   },
