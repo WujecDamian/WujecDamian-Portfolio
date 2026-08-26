@@ -1,13 +1,19 @@
-import { useLayoutEffect } from 'react'
+import { useLayoutEffect, useRef } from 'react'
 import { useLocation } from 'react-router-dom'
 
 export const HashScroll = () => {
   const { hash, pathname } = useLocation()
+  const prevPathname = useRef(pathname)
 
   useLayoutEffect(() => {
+    const pathChanged = prevPathname.current !== pathname
+    prevPathname.current = pathname
+
     if (hash) {
       const id = hash.slice(1)
-      document.getElementById(id)?.scrollIntoView()
+      document.getElementById(id)?.scrollIntoView({
+        behavior: pathChanged ? 'instant' : 'smooth',
+      })
       return
     }
 

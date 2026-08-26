@@ -15,7 +15,7 @@ export const ProjectPage = () => {
       <div className={styles.page}>
         <p>{t.caseStudy.notFound}</p>
         <Link
-          to="/"
+          to="/#projects"
           viewTransition
           className={styles.page__back}
           onClick={() => {
@@ -37,7 +37,7 @@ export const ProjectPage = () => {
   return (
     <article className={styles.page}>
       <Link
-        to="/"
+        to={`/#${gitx.id}`}
         viewTransition
         className={styles.page__back}
         onClick={() => {

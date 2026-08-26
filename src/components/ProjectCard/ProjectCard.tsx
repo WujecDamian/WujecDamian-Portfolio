@@ -12,7 +12,7 @@ export const ProjectCard = () => {
 
   return (
     <Section id="projects" title={t.project.heading}>
-      <article className={styles.card}>
+      <article id={gitx.id} className={styles.card}>
         <Link
           to={`/project/${gitx.id}`}
           viewTransition
