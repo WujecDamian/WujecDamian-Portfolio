@@ -1,7 +1,7 @@
 import { useLanguage } from '../../i18n'
 import { Section } from '../Section'
+import { SkillChip } from './SkillChip'
 import { skillGroups } from './skillGroups'
-import { skillIcons } from './skillIcons'
 import styles from './Skills.module.css'
 
 export const Skills = () => {
@@ -16,16 +16,7 @@ export const Skills = () => {
             <dd className={styles.skills__items}>
               <ul className={styles.skills__list}>
                 {group.items.map((id) => (
-                  <li key={id} className={styles.skills__item}>
-                    <img
-                      src={skillIcons[id]}
-                      alt=""
-                      className={styles.skills__icon}
-                      width={16}
-                      height={16}
-                    />
-                    {t.skills.items[id]}
-                  </li>
+                  <SkillChip key={id} id={id} />
                 ))}
               </ul>
             </dd>

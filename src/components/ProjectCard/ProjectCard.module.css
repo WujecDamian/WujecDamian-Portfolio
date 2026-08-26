@@ -36,20 +36,7 @@
 }
 
 .card__stack {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
   margin-bottom: 16px;
-  padding: 0;
-  list-style: none;
-}
-
-.card__tag {
-  font-size: 12px;
-  color: var(--text-muted);
-  background: var(--bg-subtle);
-  border-radius: var(--radius-pill);
-  padding: 4px 10px;
 }
 
 .card__links {

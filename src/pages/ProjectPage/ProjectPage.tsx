@@ -2,6 +2,8 @@ import { Link, useParams } from 'react-router-dom'
 import { gitx } from '../../data/site'
 import { useLanguage } from '../../i18n'
 import { ExternalLinkIcon, GitHubIcon } from '../../components/BrandIcon'
+import { SkillChip } from '../../components/Skills'
+import skillStyles from '../../components/Skills/Skills.module.css'
 import styles from './ProjectPage.module.css'
 
 export const ProjectPage = () => {
@@ -46,11 +48,9 @@ export const ProjectPage = () => {
       </Link>
       <h1 className={styles.page__title}>{t.project.gitxTitle}</h1>
       <p className={styles.page__blurb}>{t.project.gitxBlurb}</p>
-      <ul className={styles.page__stack} aria-label={t.project.stackLabel}>
-        {gitx.stack.map((item) => (
-          <li key={item} className={styles.page__tag}>
-            {item}
-          </li>
+      <ul className={skillStyles.skills__list} aria-label={t.project.stackLabel}>
+        {gitx.stack.map((id) => (
+          <SkillChip key={id} id={id} />
         ))}
       </ul>
 

@@ -3,6 +3,8 @@ import { gitx } from '../../data/site'
 import { useLanguage } from '../../i18n'
 import { ArrowRightIcon } from '../BrandIcon'
 import { Section } from '../Section'
+import { SkillChip } from '../Skills'
+import skillStyles from '../Skills/Skills.module.css'
 import styles from './ProjectCard.module.css'
 
 export const ProjectCard = () => {
@@ -24,13 +26,14 @@ export const ProjectCard = () => {
         <div>
           <h3 className={styles.card__title}>{t.project.gitxTitle}</h3>
           <p className={styles.card__blurb}>{t.project.gitxBlurb}</p>
-          <p className={styles.card__stack} aria-label={t.project.stackLabel}>
-            {gitx.stack.map((item) => (
-              <span key={item} className={styles.card__tag}>
-                {item}
-              </span>
+          <ul
+            className={`${skillStyles.skills__list} ${styles.card__stack}`}
+            aria-label={t.project.stackLabel}
+          >
+            {gitx.stack.map((id) => (
+              <SkillChip key={id} id={id} />
             ))}
-          </p>
+          </ul>
           <div className={styles.card__links}>
             <Link
               to={`/project/${gitx.id}`}

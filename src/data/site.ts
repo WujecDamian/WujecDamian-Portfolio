@@ -12,15 +12,7 @@ export const gitx = {
   id: 'gitx',
   github: 'https://github.com/WujecDamian/gitX',
   live: 'https://gitx-wujec.netlify.app/',
-  stack: [
-    'Node.js',
-    'Express',
-    'PostgreSQL',
-    'Prisma',
-    'GitHub OAuth 2.0',
-    'Passport.js',
-    'Redis',
-  ],
+  stack: ['postgresql', 'express', 'react', 'nodejs'] as const,
 }
 
 export const projects = [gitx] as const
