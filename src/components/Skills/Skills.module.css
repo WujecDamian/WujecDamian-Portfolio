@@ -1,14 +1,13 @@
 .skills {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  align-items: start;
-  gap: 28px 40px;
+  columns: 2;
+  column-gap: 40px;
 }
 
 .skills__group {
   display: grid;
-  align-content: start;
   gap: 10px;
+  margin-bottom: 28px;
+  break-inside: avoid;
 }
 
 .skills__label {
@@ -52,6 +51,6 @@
 
 @media (max-width: 720px) {
   .skills {
-    grid-template-columns: 1fr;
+    columns: 1;
   }
 }
