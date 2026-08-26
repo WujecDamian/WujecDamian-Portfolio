@@ -1,0 +1,30 @@
+.skills {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px 40px;
+}
+
+.skills__group {
+  display: grid;
+  gap: 6px;
+}
+
+.skills__label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.skills__items {
+  margin: 0;
+  font-size: 19px;
+  color: var(--text);
+}
+
+@media (max-width: 720px) {
+  .skills {
+    grid-template-columns: 1fr;
+  }
+}

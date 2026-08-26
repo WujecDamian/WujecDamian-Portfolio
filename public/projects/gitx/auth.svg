@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#f5f5f7"/>
+  <rect x="100" y="80" width="1000" height="590" rx="16" fill="#fff" stroke="#d2d2d7"/>
+  <text x="600" y="370" text-anchor="middle" fill="#1d1d1f" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="32" font-weight="600">GitHub OAuth</text>
+  <text x="600" y="416" text-anchor="middle" fill="#6e6e73" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18">Passport.js · Redis sessions</text>
+</svg>

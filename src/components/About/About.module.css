@@ -1,0 +1,7 @@
+.about {
+  display: grid;
+  gap: 16px;
+  max-width: 40em;
+  color: var(--text-muted);
+  font-size: 19px;
+}

@@ -1,0 +1,18 @@
+.education {
+  display: grid;
+  gap: 8px;
+}
+
+.education__school {
+  font-size: 21px;
+}
+
+.education__title {
+  color: var(--text-muted);
+  font-size: 17px;
+}
+
+.education__dates {
+  color: var(--text-muted);
+  font-size: 15px;
+}
