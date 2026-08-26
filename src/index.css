@@ -21,6 +21,7 @@
   --radius-2xl: 24px; /* hero photo (small screens) */
   --radius-3xl: 28px; /* hero photo */
   --radius-pill: 980px; /* buttons, tags, language switcher */
+  --vt-duration: 320ms;
 }
 
 
@@ -85,4 +86,81 @@ button {
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
+}
+
+::view-transition-group(root) {
+  overflow: clip;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  mix-blend-mode: normal;
+}
+
+::view-transition-old(root) {
+  animation: vt-out var(--vt-duration) ease both;
+}
+
+::view-transition-new(root) {
+  animation: vt-in var(--vt-duration) ease both;
+}
+
+html[data-vt="forward"]::view-transition-old(root) {
+  animation: vt-to-left var(--vt-duration) ease both;
+}
+
+html[data-vt="forward"]::view-transition-new(root) {
+  animation: vt-from-right var(--vt-duration) ease both;
+}
+
+html[data-vt="back"]::view-transition-old(root) {
+  animation: vt-to-right var(--vt-duration) ease both;
+}
+
+html[data-vt="back"]::view-transition-new(root) {
+  animation: vt-from-left var(--vt-duration) ease both;
+}
+
+@keyframes vt-out {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes vt-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes vt-to-left {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes vt-from-right {
+  from {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes vt-to-right {
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes vt-from-left {
+  from {
+    transform: translateX(-100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
 }

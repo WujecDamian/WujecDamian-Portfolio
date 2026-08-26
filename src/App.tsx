@@ -1,20 +1,23 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import { Layout } from './components/Layout'
 import { LanguageProvider } from './i18n'
 import { HomePage } from './pages/HomePage'
 import { ProjectPage } from './pages/ProjectPage'
 
+const router = createBrowserRouter([
+  {
+    element: <Layout />,
+    children: [
+      { path: '/', element: <HomePage /> },
+      { path: '/project/:projectId', element: <ProjectPage /> },
+    ],
+  },
+])
+
 const App = () => {
   return (
     <LanguageProvider>
-      <BrowserRouter>
-        <Routes>
-          <Route element={<Layout />}>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/project/:projectId" element={<ProjectPage />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+      <RouterProvider router={router} />
     </LanguageProvider>
   )
 }

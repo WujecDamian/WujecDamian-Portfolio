@@ -11,7 +11,14 @@ export const ProjectPage = () => {
     return (
       <div className={styles.page}>
         <p>{t.caseStudy.notFound}</p>
-        <Link to="/" className={styles.page__back}>
+        <Link
+          to="/"
+          viewTransition
+          className={styles.page__back}
+          onClick={() => {
+            document.documentElement.dataset.vt = 'back'
+          }}
+        >
           {t.caseStudy.back}
         </Link>
       </div>
@@ -26,7 +33,14 @@ export const ProjectPage = () => {
 
   return (
     <article className={styles.page}>
-      <Link to="/" className={styles.page__back}>
+      <Link
+        to="/"
+        viewTransition
+        className={styles.page__back}
+        onClick={() => {
+          document.documentElement.dataset.vt = 'back'
+        }}
+      >
         {t.caseStudy.back}
       </Link>
       <h1 className={styles.page__title}>{t.project.gitxTitle}</h1>

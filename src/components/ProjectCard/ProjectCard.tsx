@@ -10,7 +10,14 @@ export const ProjectCard = () => {
   return (
     <Section id="projects" title={t.project.heading}>
       <article className={styles.card}>
-        <Link to={`/project/${gitx.id}`} className={styles.card__media}>
+        <Link
+          to={`/project/${gitx.id}`}
+          viewTransition
+          className={styles.card__media}
+          onClick={() => {
+            document.documentElement.dataset.vt = 'forward'
+          }}
+        >
           <img src="/projects/gitx/cover.svg" alt={t.project.gitxTitle} />
         </Link>
         <div>
@@ -24,7 +31,14 @@ export const ProjectCard = () => {
             ))}
           </p>
           <div className={styles.card__links}>
-            <Link to={`/project/${gitx.id}`} className={styles.card__cta}>
+            <Link
+              to={`/project/${gitx.id}`}
+              viewTransition
+              className={styles.card__cta}
+              onClick={() => {
+                document.documentElement.dataset.vt = 'forward'
+              }}
+            >
               {t.project.caseStudy}
             </Link>
             <a href={gitx.live} target="_blank" rel="noreferrer">
