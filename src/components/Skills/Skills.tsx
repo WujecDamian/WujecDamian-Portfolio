@@ -1,24 +1,34 @@
 import { useLanguage } from '../../i18n'
 import { Section } from '../Section'
+import { skillGroups } from './skillGroups'
+import { skillIcons } from './skillIcons'
 import styles from './Skills.module.css'
 
 export const Skills = () => {
   const { t } = useLanguage()
-  const groups = [
-    { label: t.skills.languages, items: t.skills.languageItems },
-    { label: t.skills.frameworks, items: t.skills.frameworkItems },
-    { label: t.skills.data, items: t.skills.dataItems },
-    { label: t.skills.concepts, items: t.skills.conceptItems },
-    { label: t.skills.tools, items: t.skills.toolItems },
-  ]
 
   return (
     <Section id="skills" title={t.skills.heading}>
       <dl className={styles.skills}>
-        {groups.map((group) => (
-          <div key={group.label} className={styles.skills__group}>
-            <dt className={styles.skills__label}>{group.label}</dt>
-            <dd className={styles.skills__items}>{group.items}</dd>
+        {skillGroups.map((group) => (
+          <div key={group.labelKey} className={styles.skills__group}>
+            <dt className={styles.skills__label}>{t.skills[group.labelKey]}</dt>
+            <dd className={styles.skills__items}>
+              <ul className={styles.skills__list}>
+                {group.items.map((id) => (
+                  <li key={id} className={styles.skills__item}>
+                    <img
+                      src={skillIcons[id]}
+                      alt=""
+                      className={styles.skills__icon}
+                      width={16}
+                      height={16}
+                    />
+                    {t.skills.items[id]}
+                  </li>
+                ))}
+              </ul>
+            </dd>
           </div>
         ))}
       </dl>
