@@ -1,0 +1,15 @@
+---
+description: Commit each finished feature without waiting to be asked
+alwaysApply: true
+---
+
+# Auto-commit finished work
+
+When a feature, fix, or chore in this repo is **done** (build/lint ok, no leftover WIP), create a git commit without waiting for "please commit".
+
+- Message style: `feat:` / `fix:` / `chore:` / `docs:` / `refactor:` — short, why not what
+- Author: this repo’s local identity (`pieciks`)
+- Do not `git push` unless asked
+- Do not commit secrets (`.env`, credentials)
+- Do not commit if there is nothing to commit, or if the user said not to
+- One commit per finished unit of work, not a dump of unrelated WIP
