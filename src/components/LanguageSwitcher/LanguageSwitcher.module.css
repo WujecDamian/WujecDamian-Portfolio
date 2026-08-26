@@ -3,7 +3,7 @@
   align-items: center;
   gap: 2px;
   border: 1px solid var(--border);
-  border-radius: 980px;
+  border-radius: var(--radius-pill);
   padding: 2px;
   background: var(--bg-subtle);
 }
@@ -17,7 +17,7 @@
   font-weight: 600;
   letter-spacing: 0.04em;
   padding: 4px 10px;
-  border-radius: 980px;
+  border-radius: var(--radius-pill);
   cursor: pointer;
 }
 

@@ -31,7 +31,7 @@
   font-size: 12px;
   color: var(--text-muted);
   background: var(--bg-subtle);
-  border-radius: 980px;
+  border-radius: var(--radius-pill);
   padding: 4px 10px;
 }
 
@@ -59,7 +59,7 @@
 
 .shot img {
   width: 100%;
-  border-radius: 16px;
+  border-radius: var(--radius-lg);
   border: 1px solid var(--border);
   background: var(--bg-subtle);
 }
@@ -81,7 +81,7 @@
   min-height: 44px;
   align-items: center;
   padding: 8px 16px;
-  border-radius: 980px;
+  border-radius: var(--radius-pill);
   background: var(--accent);
   color: #fff;
   text-decoration: none;

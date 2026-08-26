@@ -39,7 +39,7 @@
   gap: 8px;
   min-height: 44px;
   padding: 8px 18px;
-  border-radius: 980px;
+  border-radius: var(--radius-pill);
   font-size: 17px;
   text-decoration: none;
 }
@@ -79,7 +79,7 @@
 
 .hero__portrait {
   aspect-ratio: 4 / 5;
-  border-radius: 28px;
+  border-radius: var(--radius-3xl);
   background: var(--bg-subtle);
   display: grid;
   place-items: center;
@@ -101,7 +101,7 @@
     width: 100%;
     max-width: none;
     aspect-ratio: 4 / 5;
-    border-radius: 24px;
+    border-radius: var(--radius-2xl);
     justify-self: stretch;
     font-size: clamp(72px, 22vw, 120px);
   }

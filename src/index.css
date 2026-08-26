@@ -13,7 +13,16 @@
     Helvetica, Arial, sans-serif;
   --max: 980px;
   --header-h: 52px;
+
+  --radius-sm: 8px; /* skill chips */
+  --radius-md: 12px; /* project card image */
+  --radius-lg: 16px; /* project screenshots */
+  --radius-xl: 20px; /* project card */
+  --radius-2xl: 24px; /* hero photo (small screens) */
+  --radius-3xl: 28px; /* hero photo */
+  --radius-pill: 980px; /* buttons, tags, language switcher */
 }
+
 
 *,
 *::before,
