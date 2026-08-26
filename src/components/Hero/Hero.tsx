@@ -55,6 +55,16 @@ export const Hero = () => {
             href={site.cvPath}
             download
           >
+            <svg
+              className={styles.hero__icon}
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                fill="currentColor"
+                d="M12 16.5 6.5 11h3.25V4h4.5v7H17.5zM5 20v-2h14v2z"
+              />
+            </svg>
             {t.hero.downloadCv}
           </a>
         </div>
