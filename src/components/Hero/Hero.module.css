@@ -1,6 +1,6 @@
 .hero {
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
+  grid-template-columns: 1.35fr 0.65fr;
   gap: 48px;
   align-items: center;
   padding: 40px 0 88px;
@@ -13,10 +13,11 @@
 }
 
 .hero__title {
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 400;
   color: var(--text-muted);
   margin-bottom: 20px;
+  white-space: nowrap;
 }
 
 .hero__pitch {
@@ -95,6 +96,10 @@
     grid-template-columns: 1fr;
     padding: 16px 0 56px;
     gap: 28px;
+  }
+
+  .hero__title {
+    white-space: normal;
   }
 
   .hero__portrait {
