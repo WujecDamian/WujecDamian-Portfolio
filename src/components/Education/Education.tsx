@@ -7,11 +7,15 @@ export const Education = () => {
 
   return (
     <Section id="education" title={t.education.heading}>
-      <div className={styles.education}>
-        <p className={styles.education__school}>{t.education.school}</p>
-        <p className={styles.education__title}>{t.education.title}</p>
-        <p className={styles.education__dates}>{t.education.dates}</p>
-      </div>
+      <ol className={styles.list}>
+        {t.education.items.map((item) => (
+          <li key={`${item.school}-${item.dates}`} className={styles.education}>
+            <p className={styles.education__school}>{item.school}</p>
+            <p className={styles.education__title}>{item.title}</p>
+            <p className={styles.education__dates}>{item.dates}</p>
+          </li>
+        ))}
+      </ol>
     </Section>
   )
 }

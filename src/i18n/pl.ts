@@ -74,10 +74,19 @@ export const pl: Translation = {
   },
   education: {
     heading: 'Wykształcenie',
-    school: 'Regionalne Centrum Edukacji Zawodowej w Biłgoraju',
-    title:
-      'Dyplom zawodowy — technik programista (kwalifikacja 351406, INF.03 i INF.04)',
-    dates: '2019–2024',
+    items: [
+      {
+        school: 'The Odin Project',
+        title: 'Ukończenie The Odin Project',
+        dates: 'luty–sierpień 2026',
+      },
+      {
+        school: 'Regionalne Centrum Edukacji Zawodowej w Biłgoraju',
+        title:
+          'Dyplom zawodowy — technik programista (kwalifikacja 351406, INF.03 i INF.04)',
+        dates: '2019–2024',
+      },
+    ],
   },
   experience: {
     heading: 'Doświadczenie',

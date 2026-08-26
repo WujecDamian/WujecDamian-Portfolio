@@ -72,10 +72,21 @@ export const en = {
   },
   education: {
     heading: "Education",
-    school: "Regionalne Centrum Edukacji Zawodowej w Biłgoraju",
-    title:
-      "Vocational Diploma — Programmer Technician (Qualification 351406, INF.03 and INF.04)",
-    dates: "2019–2024",
+    items: [
+      {
+        school: "The Odin Project",
+        title:
+          "Completed The Odin Project - Full Stack JavaScript path, a self-taught course emphasizing reading documentation and building projects from scratch",
+
+        dates: "February–August 2026",
+      },
+      {
+        school: "Regionalne Centrum Edukacji Zawodowej w Biłgoraju",
+        title:
+          "Vocational Diploma — Programmer Technician (Qualification 351406, INF.03 and INF.04)",
+        dates: "2019–2024",
+      },
+    ],
   },
   experience: {
     heading: "Experience",
