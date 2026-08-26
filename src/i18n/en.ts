@@ -106,7 +106,7 @@ export const en = {
       {
         role: "Automotive Detailer",
         company:
-          "Karlskrona Bilcenter AB (Mazda/Suzuki & used cars), Karlskrona, Sweden",
+          "Karlskrona Bilcenter AB (Authorized Mazda/Suzuki & Used Car Dealership), Karlskrona, Sweden",
         dates: "2025",
         bullets: [
           "Performed full-cycle vehicle detailing including paint correction, polishing, protective coatings, and interior restoration",
