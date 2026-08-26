@@ -16,6 +16,9 @@ export const Header = () => {
           <Link to="/#skills" className={styles.header__link}>
             {t.nav.skills}
           </Link>
+          <Link to="/#projects" className={styles.header__link}>
+            {t.nav.projects}
+          </Link>
           <Link to="/#education" className={styles.header__link}>
             {t.nav.education}
           </Link>

@@ -4,6 +4,7 @@ export const en = {
   },
   nav: {
     skills: "Skills",
+    projects: "Projects",
     education: "Education",
     experience: "Experience",
     langEn: "EN",
@@ -60,7 +61,7 @@ export const en = {
     },
   },
   project: {
-    heading: "Project",
+    heading: "Projects",
     gitxTitle: "GitX",
     gitxBlurb:
       "A full-stack social platform for developers, inspired by X (Twitter).",

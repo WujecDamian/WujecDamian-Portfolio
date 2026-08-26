@@ -6,6 +6,7 @@ export const pl: Translation = {
   },
   nav: {
     skills: 'Umiejętności',
+    projects: 'Projekty',
     education: 'Wykształcenie',
     experience: 'Doświadczenie',
     langEn: 'EN',
@@ -62,7 +63,7 @@ export const pl: Translation = {
     },
   },
   project: {
-    heading: 'Projekt',
+    heading: 'Projekty',
     gitxTitle: 'GitX',
     gitxBlurb:
       'Pełnostackowa platforma społecznościowa dla programistów, inspirowana X (Twitterem).',

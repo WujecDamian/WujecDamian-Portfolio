@@ -8,7 +8,7 @@ export const ProjectCard = () => {
   const { t } = useLanguage()
 
   return (
-    <Section id="project" title={t.project.heading}>
+    <Section id="projects" title={t.project.heading}>
       <article className={styles.card}>
         <Link to={`/project/${gitx.id}`} className={styles.card__media}>
           <img src="/projects/gitx/cover.svg" alt={t.project.gitxTitle} />
