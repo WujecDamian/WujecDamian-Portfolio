@@ -24,9 +24,9 @@ export const en = {
   },
   about: {
     heading: "About",
-    p1: "Hi, I’m Damian! I’ve been fascinated by building web applications for quite some time. I see programming as a path with no finish line - one that constantly demands learning new things and adapting to a rapidly changing environment. This suits me perfectly because even though my knowledge is limited now, it allows me to stand out in the long run, which I find highly motivating.",
+    p1: "Hi, I’m Damian! I’ve been fascinated by building web applications for quite some time. I see programming as a path with no finish line — one that constantly demands learning new things and adapting to a rapidly changing environment. This challenge suits me perfectly and keeps me highly motivated to improve every day.",
     p2: "I love creating solutions that solve real problems. I’m looking for a role where I can grow with a team, learn from others, and bring mutual value.",
-    p3: "Programming is my long-term vision. I want to keep mastering the fundamentals and continuously grow my skills so I can leverage them with AI, while exploring everything new coming to this fast-moving field.",
+    p3: "Programming is my long-term vision. I want to keep mastering the fundamentals and continuously grow my skills so I can leverage them with AI, while exploring everything new in this fast-moving field.",
   },
   skills: {
     heading: "Skills",
