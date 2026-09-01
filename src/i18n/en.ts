@@ -65,7 +65,7 @@ export const en = {
     heading: "Projects",
     gitxTitle: "GitX",
     gitxBlurb:
-      "A full-stack social platform for developers, inspired by X (Twitter).",
+      "A full-stack social platform for developers, recruiters and companies, inspired by X (Twitter), LinkedIn, Slack and GitHub.",
     gitxStackMore: "+5 more...",
     waldoTitle: "Where's Waldo",
     waldoBlurb:
@@ -151,7 +151,7 @@ export const en = {
     result: "Result",
     links: "Links",
     gitxProblem:
-      "Developers already live on GitHub, but typical social apps still ask for a separate account and ignore that identity. GitX is a Twitter-style feed for developers that treats GitHub as the way in.",
+      "GitX bridges the gap for developers and job seekers moving their digital identity between platforms. Instead of forcing recruiters and engineers to hop across disconnected sites, GitX consolidates your full professional footprint into a single, unified workspace.",
     gitxBuilt:
       "I designed and implemented a REST API with GitHub OAuth 2.0 (Passport.js), session storage in Redis, and a relational schema in PostgreSQL (Prisma). Core features include posts, likes, comments, bookmarks, follows, groups, and profiles — plus the React UI that uses them.",
     gitxResult:
@@ -171,7 +171,7 @@ export const en = {
     gitxShotProfileEdit:
       "Tweak your profile to give information about yourself and link your websites.",
     waldoShotLevels:
-      "Level picker — Beach, Ski slopes, Toy Store, and Deep-Sea Divers.",
+      "Level picker: Beach, Ski slopes, Toy Store, and Deep-Sea Divers.",
     waldoShotPlay:
       "Click the scene, pick a character, and the API says if you hit the right spot.",
     waldoShotBoard: "Finish a round and save your time on the leaderboard.",
