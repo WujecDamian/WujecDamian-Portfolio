@@ -56,7 +56,7 @@ export const ProjectPage = () => {
       </div>
 
       <section className={styles.block}>
-        <h2 className={styles.block__title}>{t.caseStudy.problem}</h2>
+        <h2 className={styles.block__title}>{copy.problemFixes}</h2>
         <p className={styles.block__body}>{copy.problem}</p>
       </section>
 

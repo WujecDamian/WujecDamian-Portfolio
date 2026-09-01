@@ -146,6 +146,7 @@ export const en = {
     back: "Back to home",
     notFound: "Project not found.",
     problem: "Problem",
+    problemFixes: "What problem it fixes",
     built: "What I built",
     screenshots: "Screenshots",
     result: "Result",
