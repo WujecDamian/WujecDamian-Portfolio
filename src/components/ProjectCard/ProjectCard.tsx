@@ -32,7 +32,7 @@ export const ProjectCard = () => {
                 }}
               >
                 <img
-                  src={`/projects/${project.id}/cover.svg`}
+                  src={`/projects/${project.id}/cover.jpg`}
                   alt={copy.title}
                 />
               </Link>
