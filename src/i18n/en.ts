@@ -16,7 +16,7 @@ export const en = {
     title:
       "Junior Full Stack Developer | PostgreSQL · Express · React · Node.js",
     pitch:
-      "Building full applications from start to finish with the PERN stack. Passionate about constant growth and never-ending learning. Aiming to become really good at coding! Looking for my first junior full-stack role.",
+      "Building full applications from start to finish with the PERN stack. Passionate about constant growth and never-ending learning. Aiming to become really good at coding! Looking for my first junior full-stack or front-end role.",
     github: "GitHub",
     linkedin: "LinkedIn",
     downloadCv: "Download CV",
@@ -24,7 +24,7 @@ export const en = {
   },
   about: {
     heading: "About",
-    p1: "Hi, I’m Damian! I’ve been fascinated by building web applications for quite some time. I see programming as a path with no finish line — one that constantly demands learning new things and adapting to a rapidly changing environment. This challenge suits me perfectly and keeps me highly motivated to improve every day.",
+    p1: "Hi, I’m Damian! I’ve been fascinated by building web applications for quite some time. I see programming as a path with no finish line. One that constantly demands learning new things and adapting to a rapidly changing environment. This challenge suits me perfectly and keeps me highly motivated to improve every day.",
     p2: "I love creating solutions that solve real problems. I’m looking for a role where I can grow with a team, learn from others, and bring mutual value.",
     p3: "Programming is my long-term vision. I want to keep mastering the fundamentals and continuously grow my skills so I can leverage them with AI, while exploring everything new in this fast-moving field.",
   },
@@ -70,7 +70,7 @@ export const en = {
     waldoTitle: "Where's Waldo",
     waldoBlurb:
       "A photo-tagging game: find hidden characters in crowded scenes, timed by the server, with a public leaderboard.",
-    waldoStackMore: "+ Vite, Vitest...",
+    waldoStackMore: "+4 more...",
     details: "Details",
     live: "Live preview",
     github: "GitHub",
@@ -133,7 +133,7 @@ export const en = {
   contact: {
     heading: "Contact",
     invite:
-      "If you are hiring a junior full-stack developer, I would like to hear from you.",
+      "If you are hiring a junior full-stack or front-end developer, I would like to hear from you.",
     email: "Email",
     linkedin: "LinkedIn",
     github: "GitHub",
@@ -154,7 +154,7 @@ export const en = {
     gitxProblem:
       "GitX bridges the gap for developers and job seekers moving their digital identity between platforms. Instead of forcing recruiters and engineers to hop across disconnected sites, GitX consolidates your full professional footprint into a single, unified workspace.",
     gitxBuilt:
-      "I designed and implemented a REST API with GitHub OAuth 2.0 (Passport.js), session storage in Redis, and a relational schema in PostgreSQL (Prisma). Core features include posts, likes, comments, bookmarks, follows, groups, and profiles — plus the React UI that uses them.",
+      "I designed and implemented a REST API with GitHub OAuth 2.0 (Passport.js), session storage in Redis, and a relational schema in PostgreSQL (Prisma). Core features include posts, likes, comments, bookmarks, follows, groups, and profiles, plus the React UI that uses them.",
     gitxResult:
       "A working full-stack app is live: auth, social graph, and sessions hang together end to end. It is the project I use to show how I think about APIs, data, and UI together.",
     waldoProblem:
@@ -162,7 +162,7 @@ export const en = {
     waldoBuilt:
       "I built a React game UI (targeting box, character list, several levels) on an Express API with Prisma and PostgreSQL. Clicks are normalized so coordinates match across screen sizes; the backend validates hits, times the run, and stores names on a leaderboard.",
     waldoResult:
-      "The game is live: pick a scene, find the characters, and post your time. It shows the same PERN loop as GitX — UI, API, and database — on a different kind of product.",
+      "Pick a scene, find the characters, and post your time. It shows similar PERN implementation as GitX (UI, API), and database on a different kind of product.",
     gitxShotHome: "Read posts.",
     gitxShotExplore: "Search people.",
     gitxShotChat: "Chat with colleagues.",
