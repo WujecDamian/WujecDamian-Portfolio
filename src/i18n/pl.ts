@@ -69,7 +69,7 @@ export const pl: Translation = {
     gitxBlurb:
       "Fullstackowa platforma społecznościowa dla programistów, rekruterów i firm, inspirowana serwisami X (Twitter), LinkedIn, Slack i GitHub.",
     gitxStackMore: "+5 więcej...",
-    waldoTitle: "Where's Waldo",
+    waldoTitle: "Gdzie jest Wally?",
     waldoBlurb:
       "Gra polegająca na oznaczaniu postaci na zdjęciach: odnajduj ukryte postacie na zatłoczonych scenach, z czasowem liczonym przez backend i publiczną tabelą wyników.",
     waldoStackMore: "+4 więcej...",
@@ -85,7 +85,7 @@ export const pl: Translation = {
         school: "The Odin Project",
         title:
           "Ukończyłem kurs „The Odin Project – ścieżka Full Stack JavaScript” – kurs dla samouków, kładący nacisk na czytanie dokumentacji i tworzenie projektów od podstaw",
-        dates: "luty–sierpień 2026",
+        dates: "Luty–Sierpień 2026",
       },
       {
         school: "Regionalne Centrum Edukacji Zawodowej w Biłgoraju",
@@ -101,7 +101,7 @@ export const pl: Translation = {
       {
         role: "Detailer samochodowy",
         company: "APZ GmbH, Rheine, Niemcy",
-        dates: "2025",
+        dates: "Sierpień 2025 – Styczeń 2026",
         bullets: [
           "Realizowałem usługi kompleksowej pielęgnacji samochodów na dużą skalę (ok. 4 pojazdy dziennie), w tym odnawianie pojazdów zwracanych po zakończeniu leasingu",
           "Wykonywałem korektę lakieru, zabezpieczanie powierzchni oraz kompleksową renowację wnętrza i nadwozia zgodnie ze standardami wymaganymi przez salon dealerski",
@@ -112,7 +112,7 @@ export const pl: Translation = {
         role: "Detailer samochodowy",
         company:
           "Karlskrona Bilcenter AB (Mazda/Suzuki i auta używane), Karlskrona, Szwecja",
-        dates: "2025",
+        dates: "Maj 2025 – Lipiec 2025",
         bullets: [
           "Wykonywałem kompleksowe usługi pielęgnacji pojazdów, w tym korektę lakieru, polerowanie, nakładanie powłok ochronnych oraz renowację wnętrz",
           "Przygotowywałem pojazdy do odsprzedaży poprzez poprawę ich wyglądu zgodnie ze standardami salonu dealerskiego",
@@ -122,7 +122,7 @@ export const pl: Translation = {
       {
         role: "Pracownik magazynu",
         company: "Ambra S.A., Wola Duża, Polska",
-        dates: "2024",
+        dates: "Czerwiec 2024 – Marzec 2025",
         bullets: [
           "Montaż i przygotowywanie standów reklamowych w dynamicznym środowisku magazynowym w ramach systemu opartego na wynikach (normy/akord)",
           "Praca w ramach zespołowych procesów produkcyjnych, zapewniająca terminową realizację dziennych celów produkcyjnych",

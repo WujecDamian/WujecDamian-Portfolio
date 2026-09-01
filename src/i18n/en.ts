@@ -67,7 +67,7 @@ export const en = {
     gitxBlurb:
       "A full-stack social platform for developers, recruiters and companies, inspired by X (Twitter), LinkedIn, Slack and GitHub.",
     gitxStackMore: "+5 more...",
-    waldoTitle: "Where's Waldo",
+    waldoTitle: "Where's Waldo?",
     waldoBlurb:
       "A photo-tagging game: find hidden characters in crowded scenes, timed by the server, with a public leaderboard.",
     waldoStackMore: "+4 more...",
@@ -100,7 +100,7 @@ export const en = {
       {
         role: "Automotive Detailer",
         company: "APZ GmbH, Rheine, Germany",
-        dates: "2025",
+        dates: "Aug 2025 - Jan 2026",
         bullets: [
           "Delivered high-volume automotive detailing (~4 vehicles/day), including refurbishment of lease-return vehicles",
           "Performed paint correction, surface protection, and full interior/exterior restoration for dealership-ready standards",
@@ -111,7 +111,7 @@ export const en = {
         role: "Automotive Detailer",
         company:
           "Karlskrona Bilcenter AB (Authorized Mazda/Suzuki & Used Car Dealership), Karlskrona, Sweden",
-        dates: "2025",
+        dates: "May 2025 - Jul 2025",
         bullets: [
           "Performed full-cycle vehicle detailing including paint correction, polishing, protective coatings, and interior restoration",
           "Prepared vehicles for resale by improving presentation quality to dealership standards",
@@ -121,7 +121,7 @@ export const en = {
       {
         role: "Warehouse Associate",
         company: "Ambra S.A., Wola Duża, Poland",
-        dates: "2024",
+        dates: "Jun 2024 - Mar 2025",
         bullets: [
           "Assembled and prepared promotional display units in a high-paced warehouse environment under a performance-based (quota/akord) system",
           "Worked in team-based production workflows, ensuring timely delivery of daily output targets",
