@@ -11,9 +11,28 @@ export const getProjectCopy = (id: Project['id'], t: Translation) => {
       built: t.caseStudy.gitxBuilt,
       result: t.caseStudy.gitxResult,
       shots: [
-        { src: '/projects/gitx/feed.svg', caption: t.caseStudy.shotFeed },
-        { src: '/projects/gitx/auth.svg', caption: t.caseStudy.shotAuth },
-        { src: '/projects/gitx/data.svg', caption: t.caseStudy.shotData },
+        { src: '/projects/gitx/home.jpg', caption: t.caseStudy.gitxShotHome },
+        {
+          src: '/projects/gitx/explore.jpg',
+          caption: t.caseStudy.gitxShotExplore,
+        },
+        { src: '/projects/gitx/chat.jpg', caption: t.caseStudy.gitxShotChat },
+        {
+          src: '/projects/gitx/group-post.jpg',
+          caption: t.caseStudy.gitxShotGroupPost,
+        },
+        {
+          src: '/projects/gitx/group-chat.jpg',
+          caption: t.caseStudy.gitxShotGroupChat,
+        },
+        {
+          src: '/projects/gitx/profile.jpg',
+          caption: t.caseStudy.gitxShotProfile,
+        },
+        {
+          src: '/projects/gitx/profile-edit.jpg',
+          caption: t.caseStudy.gitxShotProfileEdit,
+        },
       ],
     }
   }

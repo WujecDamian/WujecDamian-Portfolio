@@ -162,9 +162,14 @@ export const en = {
       "I built a React game UI (targeting box, character list, several levels) on an Express API with Prisma and PostgreSQL. Clicks are normalized so coordinates match across screen sizes; the backend validates hits, times the run, and stores names on a leaderboard.",
     waldoResult:
       "The game is live: pick a scene, find the characters, and post your time. It shows the same PERN loop as GitX — UI, API, and database — on a different kind of product.",
-    shotFeed: "Feed and social features — see the live app for the current UI.",
-    shotAuth: "GitHub OAuth sign-in and session-backed requests.",
-    shotData: "PostgreSQL schema plus Redis as the session store.",
+    gitxShotHome: "Read posts.",
+    gitxShotExplore: "Search people.",
+    gitxShotChat: "Chat with colleagues.",
+    gitxShotGroupPost: "Share something with your group.",
+    gitxShotGroupChat: "Plan something with your team.",
+    gitxShotProfile: "Show off your profile.",
+    gitxShotProfileEdit:
+      "Tweak your profile to give information about yourself and link your websites.",
     waldoShotLevels:
       "Level picker — Beach, Ski slopes, Toy Store, and Deep-Sea Divers.",
     waldoShotPlay:

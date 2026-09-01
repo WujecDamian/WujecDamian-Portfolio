@@ -158,10 +158,14 @@ export const pl: Translation = {
       'Zrobiłem grę w React (ramka celowania, lista postaci, kilka poziomów) i API w Express z Prisma i PostgreSQL. Współrzędne są normalizowane do rozmiaru obrazu; backend potwierdza trafienia, liczy czas i zapisuje wyniki.',
     waldoResult:
       'Gra jest online: wybierasz scenę, znajdujesz postacie, zapisujesz czas. Ten sam cykl UI–API–baza co w GitX, tylko inny produkt.',
-    shotFeed:
-      'Feed i funkcje społecznościowe — aktualny UI jest w podglądzie na żywo.',
-    shotAuth: 'Logowanie GitHub OAuth i żądania oparte o sesję.',
-    shotData: 'Schemat PostgreSQL oraz Redis jako magazyn sesji.',
+    gitxShotHome: 'Czytaj posty.',
+    gitxShotExplore: 'Szukaj ludzi.',
+    gitxShotChat: 'Czatuj ze znajomymi.',
+    gitxShotGroupPost: 'Podziel się czymś z grupą.',
+    gitxShotGroupChat: 'Zaplanuj coś z zespołem.',
+    gitxShotProfile: 'Pokaż swój profil.',
+    gitxShotProfileEdit:
+      'Edytuj profil: informacje o sobie i linki do swoich stron.',
     waldoShotLevels:
       'Wybór poziomu — plaża, stok, sklep z zabawkami i głębiny.',
     waldoShotPlay:
