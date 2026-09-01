@@ -15,4 +15,13 @@ export const gitx = {
   stack: ['postgresql', 'express', 'react', 'nodejs'] as const,
 }
 
-export const projects = [gitx] as const
+export const waldo = {
+  id: 'waldo',
+  github: 'https://github.com/WujecDamian/odin-Wheres-Waldo',
+  live: 'https://wujec-wheres-waldo.netlify.app/',
+  stack: ['react', 'express', 'postgresql', 'prisma'] as const,
+}
+
+export const projects = [gitx, waldo] as const
+
+export type Project = (typeof projects)[number]

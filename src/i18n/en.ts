@@ -66,11 +66,15 @@ export const en = {
     gitxTitle: "GitX",
     gitxBlurb:
       "A full-stack social platform for developers, inspired by X (Twitter).",
+    gitxStackMore: "+5 more...",
+    waldoTitle: "Where's Waldo",
+    waldoBlurb:
+      "A photo-tagging game: find hidden characters in crowded scenes, timed by the server, with a public leaderboard.",
+    waldoStackMore: "+ Vite, Vitest...",
     details: "Details",
     live: "Live preview",
     github: "GitHub",
     stackLabel: "Stack",
-    stackMore: "+5 more...",
   },
   education: {
     heading: "Education",
@@ -152,9 +156,20 @@ export const en = {
       "I designed and implemented a REST API with GitHub OAuth 2.0 (Passport.js), session storage in Redis, and a relational schema in PostgreSQL (Prisma). Core features include posts, likes, comments, bookmarks, follows, groups, and profiles — plus the React UI that uses them.",
     gitxResult:
       "A working full-stack app is live: auth, social graph, and sessions hang together end to end. It is the project I use to show how I think about APIs, data, and UI together.",
+    waldoProblem:
+      "A Where's Waldo game is easy to cheat if the browser decides whether a click is correct, or if the timer lives only on the client. Guesses and scores have to be checked on the server, and they still have to work on phones and big screens.",
+    waldoBuilt:
+      "I built a React game UI (targeting box, character list, several levels) on an Express API with Prisma and PostgreSQL. Clicks are normalized so coordinates match across screen sizes; the backend validates hits, times the run, and stores names on a leaderboard.",
+    waldoResult:
+      "The game is live: pick a scene, find the characters, and post your time. It shows the same PERN loop as GitX — UI, API, and database — on a different kind of product.",
     shotFeed: "Feed and social features — see the live app for the current UI.",
     shotAuth: "GitHub OAuth sign-in and session-backed requests.",
     shotData: "PostgreSQL schema plus Redis as the session store.",
+    waldoShotLevels:
+      "Level picker — Beach, Ski slopes, Toy Store, and Deep-Sea Divers.",
+    waldoShotPlay:
+      "Click the scene, pick a character, and the API says if you hit the right spot.",
+    waldoShotBoard: "Finish a round and save your time on the leaderboard.",
   },
 };
 

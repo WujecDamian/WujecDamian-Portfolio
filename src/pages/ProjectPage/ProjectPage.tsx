@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom'
-import { gitx } from '../../data/site'
+import { getProjectCopy } from '../../data/projectCopy'
+import { projects } from '../../data/site'
 import { useLanguage } from '../../i18n'
 import { ExternalLinkIcon, GitHubIcon } from '../../components/BrandIcon'
 import { SkillChip } from '../../components/Skills'
@@ -9,8 +10,9 @@ import styles from './ProjectPage.module.css'
 export const ProjectPage = () => {
   const { projectId } = useParams()
   const { t } = useLanguage()
+  const project = projects.find((item) => item.id === projectId)
 
-  if (projectId !== gitx.id) {
+  if (!project) {
     return (
       <div className={styles.page}>
         <p>{t.caseStudy.notFound}</p>
@@ -28,16 +30,12 @@ export const ProjectPage = () => {
     )
   }
 
-  const shots = [
-    { src: '/projects/gitx/feed.svg', caption: t.caseStudy.shotFeed },
-    { src: '/projects/gitx/auth.svg', caption: t.caseStudy.shotAuth },
-    { src: '/projects/gitx/data.svg', caption: t.caseStudy.shotData },
-  ]
+  const copy = getProjectCopy(project.id, t)
 
   return (
     <article className={styles.page}>
       <Link
-        to={`/#${gitx.id}`}
+        to={`/#${project.id}`}
         viewTransition
         className={styles.page__back}
         onClick={() => {
@@ -46,31 +44,31 @@ export const ProjectPage = () => {
       >
         {t.caseStudy.back}
       </Link>
-      <h1 className={styles.page__title}>{t.project.gitxTitle}</h1>
-      <p className={styles.page__blurb}>{t.project.gitxBlurb}</p>
+      <h1 className={styles.page__title}>{copy.title}</h1>
+      <p className={styles.page__blurb}>{copy.blurb}</p>
       <div className={styles.page__stack}>
         <ul className={skillStyles.skills__list} aria-label={t.project.stackLabel}>
-          {gitx.stack.map((id) => (
+          {project.stack.map((id) => (
             <SkillChip key={id} id={id} />
           ))}
         </ul>
-        <p className={styles.page__stackMore}>{t.project.stackMore}</p>
+        <p className={styles.page__stackMore}>{copy.stackMore}</p>
       </div>
 
       <section className={styles.block}>
         <h2 className={styles.block__title}>{t.caseStudy.problem}</h2>
-        <p className={styles.block__body}>{t.caseStudy.gitxProblem}</p>
+        <p className={styles.block__body}>{copy.problem}</p>
       </section>
 
       <section className={styles.block}>
         <h2 className={styles.block__title}>{t.caseStudy.built}</h2>
-        <p className={styles.block__body}>{t.caseStudy.gitxBuilt}</p>
+        <p className={styles.block__body}>{copy.built}</p>
       </section>
 
       <section className={styles.block}>
         <h2 className={styles.block__title}>{t.caseStudy.screenshots}</h2>
         <div className={styles.shots}>
-          {shots.map((shot) => (
+          {copy.shots.map((shot) => (
             <figure key={shot.src} className={styles.shot}>
               <img src={shot.src} alt="" />
               <figcaption>{shot.caption}</figcaption>
@@ -81,7 +79,7 @@ export const ProjectPage = () => {
 
       <section className={styles.block}>
         <h2 className={styles.block__title}>{t.caseStudy.result}</h2>
-        <p className={styles.block__body}>{t.caseStudy.gitxResult}</p>
+        <p className={styles.block__body}>{copy.result}</p>
       </section>
 
       <section className={styles.block}>
@@ -89,7 +87,7 @@ export const ProjectPage = () => {
         <div className={styles.links}>
           <a
             className={`${styles.link} ${styles['link--live']}`}
-            href={gitx.live}
+            href={project.live}
             target="_blank"
             rel="noreferrer"
           >
@@ -98,7 +96,7 @@ export const ProjectPage = () => {
           </a>
           <a
             className={`${styles.link} ${styles['link--github']}`}
-            href={gitx.github}
+            href={project.github}
             target="_blank"
             rel="noreferrer"
           >

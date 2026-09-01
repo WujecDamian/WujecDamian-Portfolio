@@ -67,11 +67,15 @@ export const pl: Translation = {
     gitxTitle: 'GitX',
     gitxBlurb:
       'Pełnostackowa platforma społecznościowa dla programistów, inspirowana X (Twitterem).',
+    gitxStackMore: 'plus pięć więcej',
+    waldoTitle: 'Where\'s Waldo',
+    waldoBlurb:
+      'Gra w znajdowanie postaci: klikasz w zatłoczoną scenę, serwer sprawdza trafienie, a czas ląduje na tablicy wyników.',
+    waldoStackMore: 'plus Vite, Vitest…',
     details: 'Szczegóły',
     live: 'Podgląd na żywo',
     github: 'GitHub',
     stackLabel: 'Stack',
-    stackMore: 'plus pięć więcej',
   },
   education: {
     heading: 'Wykształcenie',
@@ -148,9 +152,20 @@ export const pl: Translation = {
       'Zaprojektowałem i zaimplementowałem REST API z GitHub OAuth 2.0 (Passport.js), sesjami w Redis i relacyjnym schematem w PostgreSQL (Prisma). Są posty, polubienia, komentarze, zakładki, follow, grupy i profile — oraz interfejs w React, który z tego korzysta.',
     gitxResult:
       'Działa pełny stos: logowanie, graf społeczny i sesje spinają się od UI do bazy. Tym projektem pokazuję, jak myślę o API, danych i interfejsie naraz.',
+    waldoProblem:
+      'W Where\'s Waldo łatwo oszukiwać, jeśli to przeglądarka decyduje, czy klik jest dobry, albo jeśli stoper żyje tylko u klienta. Trafienia i wyniki muszą iść przez serwer — i działać na telefonie tak samo jak na dużym ekranie.',
+    waldoBuilt:
+      'Zrobiłem grę w React (ramka celowania, lista postaci, kilka poziomów) i API w Express z Prisma i PostgreSQL. Współrzędne są normalizowane do rozmiaru obrazu; backend potwierdza trafienia, liczy czas i zapisuje wyniki.',
+    waldoResult:
+      'Gra jest online: wybierasz scenę, znajdujesz postacie, zapisujesz czas. Ten sam cykl UI–API–baza co w GitX, tylko inny produkt.',
     shotFeed:
       'Feed i funkcje społecznościowe — aktualny UI jest w podglądzie na żywo.',
     shotAuth: 'Logowanie GitHub OAuth i żądania oparte o sesję.',
     shotData: 'Schemat PostgreSQL oraz Redis jako magazyn sesji.',
+    waldoShotLevels:
+      'Wybór poziomu — plaża, stok, sklep z zabawkami i głębiny.',
+    waldoShotPlay:
+      'Klikasz w scenę, wybierasz postać, a API mówi, czy trafiłeś.',
+    waldoShotBoard: 'Po rundzie zapisujesz czas na tablicy wyników.',
   },
 }
