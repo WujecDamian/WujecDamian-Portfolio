@@ -3,7 +3,7 @@ export const site = {
   email: 'wujecdamian12@gmail.com',
   github: 'https://github.com/WujecDamian',
   linkedin: 'https://www.linkedin.com/in/damian-wujec-5b8a233ab/',
-  cvPath: '/Resume-Damian-Wujec.pdf',
+  cvPath: '/Damian-Wujec-CV.pdf',
   portraitPath: '/portrait.jpg',
   location: 'Biłgoraj, Poland',
 }
