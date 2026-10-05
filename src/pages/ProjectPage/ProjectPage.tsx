@@ -65,17 +65,31 @@ export const ProjectPage = () => {
         <p className={styles.block__body}>{copy.built}</p>
       </section>
 
-      <section className={styles.block}>
-        <h2 className={styles.block__title}>{t.caseStudy.screenshots}</h2>
-        <div className={styles.shots}>
-          {copy.shots.map((shot) => (
-            <figure key={shot.src} className={styles.shot}>
-              <img src={shot.src} alt="" />
-              <figcaption>{shot.caption}</figcaption>
-            </figure>
-          ))}
-        </div>
-      </section>
+      {"youtube" in project ? (
+        <section className={styles.block}>
+          <h2 className={styles.block__title}>{t.caseStudy.video}</h2>
+          <div className={styles.video}>
+            <iframe
+              src={`https://www.youtube-nocookie.com/embed/${project.youtube}`}
+              title={copy.title}
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </section>
+      ) : "shots" in copy && copy.shots ? (
+        <section className={styles.block}>
+          <h2 className={styles.block__title}>{t.caseStudy.screenshots}</h2>
+          <div className={styles.shots}>
+            {copy.shots.map((shot) => (
+              <figure key={shot.src} className={styles.shot}>
+                <img src={shot.src} alt="" />
+                <figcaption>{shot.caption}</figcaption>
+              </figure>
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       <section className={styles.block}>
         <h2 className={styles.block__title}>{t.caseStudy.result}</h2>
@@ -94,15 +108,17 @@ export const ProjectPage = () => {
             <ExternalLinkIcon className={styles.link__icon} />
             {t.project.live}
           </a>
-          <a
-            className={`${styles.link} ${styles['link--github']}`}
-            href={project.github}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <GitHubIcon className={styles.link__icon} />
-            {t.project.github}
-          </a>
+          {"github" in project ? (
+            <a
+              className={`${styles.link} ${styles['link--github']}`}
+              href={project.github}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GitHubIcon className={styles.link__icon} />
+              {t.project.github}
+            </a>
+          ) : null}
         </div>
       </section>
     </article>

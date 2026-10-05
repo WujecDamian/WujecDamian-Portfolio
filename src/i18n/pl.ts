@@ -69,6 +69,10 @@ export const pl: Translation = {
     gitxBlurb:
       "Fullstackowa platforma społecznościowa dla programistów, rekruterów i firm, inspirowana serwisami X (Twitter), LinkedIn, Slack i GitHub.",
     gitxStackMore: "+5 więcej...",
+    firefocusTitle: "FireFocus",
+    firefocusBlurb:
+      "Rozszerzenie Chrome i strona, które podczas sesji skupienia blokują strony spoza tematu. Całość zrobiona w Cursor AI.",
+    firefocusStackMore: "Rozszerzenie Chrome, Stripe, Gemini",
     waldoTitle: "Gdzie jest Wally?",
     waldoBlurb:
       "Gra polegająca na oznaczaniu postaci na zdjęciach: odnajduj ukryte postacie na zatłoczonych scenach, z czasowem liczonym przez backend i publiczną tabelą wyników.",
@@ -150,6 +154,7 @@ export const pl: Translation = {
     problemFixes: "Jaki problem rozwiązuje",
     built: "Co zbudowałem",
     screenshots: "Zrzuty ekranu",
+    video: "Wideo",
     result: "Efekt",
     links: "Linki",
     gitxProblem:
@@ -158,6 +163,12 @@ export const pl: Translation = {
       "Zaprojektowałem i wdrożyłem interfejs API REST z wykorzystaniem GitHub OAuth 2.0 (Passport.js), przechowywaniem sesji w Redis oraz schematem relacyjnym w PostgreSQL (Prisma). Do głównych funkcji należą posty, polubienia, komentarze, zakładki, obserwowanie, grupy i profile a także interfejs użytkownika oparty na React, który z nich korzysta.",
     gitxResult:
       "Działająca aplikacja full-stackowa: uwierzytelnianie, funckje społecznościowe i sesje współdziałają ze sobą od backendu po frontend. Jest to projekt, którego używam, aby pokazać, jak postrzegam API, dane i interfejs użytkownika.",
+    firefocusProblem:
+      "Blokery domen są zbyt tępe. Podczas prawdziwej pracy nadal potrzebujesz dokumentacji i wyszukiwarki, a niepowiązane karty (feedy, ogłoszenia, filmy) i tak zjadają sesję.",
+    firefocusBuilt:
+      "Cały produkt został zrobiony w Cursor AI: rozszerzenie Chrome, strona marketingowa i panel w React, API w Express, Postgres, plany w Stripe oraz sprawdzenia Gemini, które zostawiają strony na temat, a resztę zatrzymują ścianą.",
+    firefocusResult:
+      "Działa na firefocusai.com, z planem darmowym oraz Basic i Pro.",
     waldoProblem:
       "W grze typu „Gdzie jest Waldo?” łatwo jest oszukiwać, jeśli to przeglądarka decyduje, czy kliknięcie jest prawidłowe, albo jeśli licznik czasu działa wyłącznie po stronie klienta. Odpowiedzi i wyniki muszą być weryfikowane na serwerze, a gra musi działać zarówno na telefonach, jak i na dużych ekranach.",
     waldoBuilt:

@@ -67,6 +67,10 @@ export const en = {
     gitxBlurb:
       "A full-stack social platform for developers, recruiters and companies, inspired by X (Twitter), LinkedIn, Slack and GitHub.",
     gitxStackMore: "+5 more...",
+    firefocusTitle: "FireFocus",
+    firefocusBlurb:
+      "A Chrome extension and site that blocks off-topic pages during a timed focus session. Completely made with Cursor AI.",
+    firefocusStackMore: "Chrome extension, Stripe, Gemini",
     waldoTitle: "Where's Waldo?",
     waldoBlurb:
       "A photo-tagging game: find hidden characters in crowded scenes, timed by the server, with a public leaderboard.",
@@ -149,6 +153,7 @@ export const en = {
     problemFixes: "What problem it fixes",
     built: "What I built",
     screenshots: "Screenshots",
+    video: "Video",
     result: "Result",
     links: "Links",
     gitxProblem:
@@ -157,6 +162,12 @@ export const en = {
       "I designed and implemented a REST API with GitHub OAuth 2.0 (Passport.js), session storage in Redis, and a relational schema in PostgreSQL (Prisma). Core features include posts, likes, comments, bookmarks, follows, groups, and profiles, plus the React UI that uses them.",
     gitxResult:
       "A working full-stack app is live: auth, social graph, and sessions hang together end to end. It is the project I use to show how I think about APIs, data, and UI together.",
+    firefocusProblem:
+      "Domain blockers are blunt. During real work you still need docs and search, and unrelated tabs (feeds, listings, videos) still eat the session.",
+    firefocusBuilt:
+      "The whole product was made with Cursor AI: Chrome extension, React marketing site and dashboard, Express API, Postgres, Stripe plans, and Gemini checks that keep on-topic pages and wall the rest.",
+    firefocusResult:
+      "Live at firefocusai.com, with a free plan plus Basic and Pro.",
     waldoProblem:
       "A Where's Waldo game is easy to cheat if the browser decides whether a click is correct, or if the timer lives only on the client. Guesses and scores have to be checked on the server, and they still have to work on phones and big screens.",
     waldoBuilt:

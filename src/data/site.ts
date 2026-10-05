@@ -15,6 +15,20 @@ export const gitx = {
   stack: ['postgresql', 'express', 'react', 'nodejs'] as const,
 }
 
+export const firefocus = {
+  id: 'firefocus',
+  live: 'https://firefocusai.com/',
+  youtube: 'xRIn7KvsmrA',
+  stack: [
+    'react',
+    'typescript',
+    'nodejs',
+    'express',
+    'postgresql',
+    'cursor',
+  ] as const,
+}
+
 export const waldo = {
   id: 'waldo',
   github: 'https://github.com/WujecDamian/odin-Wheres-Waldo',
@@ -22,6 +36,6 @@ export const waldo = {
   stack: ['react', 'express', 'postgresql', 'prisma'] as const,
 }
 
-export const projects = [gitx, waldo] as const
+export const projects = [gitx, firefocus, waldo] as const
 
 export type Project = (typeof projects)[number]

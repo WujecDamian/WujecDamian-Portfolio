@@ -32,7 +32,11 @@ export const ProjectCard = () => {
                 }}
               >
                 <img
-                  src={`/projects/${project.id}/cover.jpg`}
+                  src={
+                    "youtube" in project
+                      ? `https://img.youtube.com/vi/${project.youtube}/hqdefault.jpg`
+                      : `/projects/${project.id}/cover.jpg`
+                  }
                   alt={copy.title}
                 />
               </Link>
@@ -65,9 +69,11 @@ export const ProjectCard = () => {
                   <a href={project.live} target="_blank" rel="noreferrer">
                     {t.project.live}
                   </a>
-                  <a href={project.github} target="_blank" rel="noreferrer">
-                    {t.project.github}
-                  </a>
+                  {"github" in project ? (
+                    <a href={project.github} target="_blank" rel="noreferrer">
+                      {t.project.github}
+                    </a>
+                  ) : null}
                 </div>
               </div>
             </article>

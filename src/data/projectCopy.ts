@@ -38,6 +38,18 @@ export const getProjectCopy = (id: Project["id"], t: Translation) => {
     };
   }
 
+  if (id === "firefocus") {
+    return {
+      title: t.project.firefocusTitle,
+      blurb: t.project.firefocusBlurb,
+      stackMore: t.project.firefocusStackMore,
+      problemFixes: t.caseStudy.problemFixes,
+      problem: t.caseStudy.firefocusProblem,
+      built: t.caseStudy.firefocusBuilt,
+      result: t.caseStudy.firefocusResult,
+    };
+  }
+
   return {
     title: t.project.waldoTitle,
     blurb: t.project.waldoBlurb,
