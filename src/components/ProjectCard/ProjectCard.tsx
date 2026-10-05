@@ -32,11 +32,7 @@ export const ProjectCard = () => {
                 }}
               >
                 <img
-                  src={
-                    "youtube" in project
-                      ? `https://img.youtube.com/vi/${project.youtube}/hqdefault.jpg`
-                      : `/projects/${project.id}/cover.jpg`
-                  }
+                  src={`/projects/${project.id}/cover.jpg`}
                   alt={copy.title}
                 />
               </Link>
