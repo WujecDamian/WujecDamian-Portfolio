@@ -54,11 +54,13 @@ export const en = {
       authentication: "authentication",
       authorization: "authorization",
       backend: "backend development",
+      statemanagement: "state management",
       git: "Git",
       eslint: "ESLint",
       vitest: "Vitest",
       testinglibrary: "React Testing Library",
       cursor: "Cursor AI",
+      docker: "Docker",
     },
   },
   project: {
@@ -88,7 +90,7 @@ export const en = {
         title:
           "Completed The Odin Project - Full Stack JavaScript path, a self-taught course emphasizing reading documentation and building projects from scratch",
 
-        dates: "February–August 2026",
+        dates: "February–September 2026",
       },
       {
         school: "Regionalne Centrum Edukacji Zawodowej w Biłgoraju",

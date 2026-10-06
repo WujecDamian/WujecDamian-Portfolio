@@ -21,11 +21,11 @@ export const skillGroups = [
   },
   {
     labelKey: 'concepts',
-    items: ['rest', 'authentication', 'authorization', 'backend'],
+    items: ['rest', 'authentication', 'authorization', 'backend', 'statemanagement'],
   },
   {
     labelKey: 'tools',
-    items: ['git', 'eslint', 'vitest', 'testinglibrary', 'cursor'],
+    items: ['git', 'eslint', 'vitest', 'testinglibrary', 'cursor', 'docker'],
   },
 ] as const
 

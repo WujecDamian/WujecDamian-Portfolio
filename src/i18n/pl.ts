@@ -56,11 +56,13 @@ export const pl: Translation = {
       authentication: "uwierzytelnianie",
       authorization: "autoryzacja",
       backend: "tworzenie i rozwój backendu",
+      statemanagement: "zarządzanie stanem",
       git: "Git",
       eslint: "ESLint",
       vitest: "Vitest",
       testinglibrary: "React Testing Library",
       cursor: "Cursor AI",
+      docker: "Docker",
     },
   },
   project: {
@@ -89,7 +91,7 @@ export const pl: Translation = {
         school: "The Odin Project",
         title:
           "Ukończyłem kurs „The Odin Project – ścieżka Full Stack JavaScript” – kurs dla samouków, kładący nacisk na czytanie dokumentacji i tworzenie projektów od podstaw",
-        dates: "Luty–Sierpień 2026",
+        dates: "Luty–Wrzesień 2026",
       },
       {
         school: "Regionalne Centrum Edukacji Zawodowej w Biłgoraju",
