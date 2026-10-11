@@ -110,7 +110,7 @@ export const pl: Translation = {
         dates: "Sierpień 2025 – Styczeń 2026",
         bullets: [
           "Realizowałem usługi kompleksowej pielęgnacji samochodów na dużą skalę (ok. 4 pojazdy dziennie), w tym odnawianie pojazdów zwracanych po zakończeniu leasingu",
-          "Wykonywałem korektę lakieru, zabezpieczanie powierzchni oraz kompleksową renowację wnętrza i nadwozia zgodnie ze standardami wymaganymi przez salon dealerski",
+          "Wykonywałem korekty lakieru, zabezpieczanie powierzchni oraz kompleksową renowację wnętrza i nadwozia zgodnie ze standardami wymaganymi przez salon dealerski",
           "Pracowałem na miejscu w salonie BMW/MINI (Procar Automobile, Münster) jako technik zewnętrzny.",
         ],
       },
