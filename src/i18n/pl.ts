@@ -71,9 +71,9 @@ export const pl: Translation = {
     gitxBlurb:
       "Fullstackowa platforma społecznościowa dla programistów, rekruterów i firm, inspirowana serwisami X (Twitter), LinkedIn, Slack i GitHub.",
     gitxStackMore: "+5 więcej...",
-    firefocusTitle: "FireFocus",
+    firefocusTitle: "FireFocus AI",
     firefocusBlurb:
-      "Rozszerzenie Chrome i strona, które podczas sesji skupienia blokują strony spoza tematu. Całość zrobiona w Cursor AI.",
+      "Rozszerzenie Chrome, które blokuje strony niezwiązane z tematem podczas sesji nauki. W całości stworzone przy użyciu Cursor AI. Zintegrowane z interfejsem API Gemini",
     firefocusStackMore: "Rozszerzenie Chrome, Stripe, Gemini",
     waldoTitle: "Gdzie jest Wally?",
     waldoBlurb:

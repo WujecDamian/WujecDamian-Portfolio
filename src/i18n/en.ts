@@ -69,9 +69,9 @@ export const en = {
     gitxBlurb:
       "A full-stack social platform for developers, recruiters and companies, inspired by X (Twitter), LinkedIn, Slack and GitHub.",
     gitxStackMore: "+5 more...",
-    firefocusTitle: "FireFocus",
+    firefocusTitle: "FireFocus AI",
     firefocusBlurb:
-      "A Chrome extension and site that blocks off-topic pages during a timed focus session. Completely made with Cursor AI.",
+      "A Chrome extension that blocks off-topic pages during a timed focus session. Completely made with Cursor AI. Integrated with Gemini API",
     firefocusStackMore: "Chrome extension, Stripe, Gemini",
     waldoTitle: "Where's Waldo?",
     waldoBlurb:
