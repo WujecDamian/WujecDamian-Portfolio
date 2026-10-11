@@ -11,7 +11,7 @@ export const site = {
 export const gitx = {
   id: 'gitx',
   github: 'https://github.com/WujecDamian/gitX',
-  live: 'https://gitx-wujec.netlify.app/',
+  live: 'https://gitx.wujecdamian.dev/',
   stack: ['postgresql', 'express', 'react', 'nodejs'] as const,
 }
 
