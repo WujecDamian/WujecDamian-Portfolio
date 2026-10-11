@@ -120,7 +120,7 @@ export const pl: Translation = {
           "Karlskrona Bilcenter AB (Mazda/Suzuki i auta używane), Karlskrona, Szwecja",
         dates: "Maj 2025 – Lipiec 2025",
         bullets: [
-          "Wykonywałem kompleksowe usługi pielęgnacji pojazdów, w tym korektę lakieru, polerowanie, nakładanie powłok ochronnych oraz renowację wnętrz",
+          "Wykonywałem kompleksowe usługi pielęgnacji pojazdów, w tym korekty lakieru, polerowanie, nakładanie powłok ochronnych oraz renowację wnętrz",
           "Przygotowywałem pojazdy do odsprzedaży poprzez poprawę ich wyglądu zgodnie ze standardami salonu dealerskiego",
           "Komunikowałem się w języku angielskim w międzynarodowym środowisku pracy, zachowując wysoką wydajność (12-godzinne zmiany, 6 dni w tygodniu)",
         ],
