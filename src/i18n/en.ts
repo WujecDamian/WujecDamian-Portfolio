@@ -165,11 +165,11 @@ export const en = {
     gitxResult:
       "A working full-stack app is live: auth, social graph, and sessions hang together end to end. It is the project I use to show how I think about APIs, data, and UI together.",
     firefocusProblem:
-      "Domain blockers are blunt. During real work you still need docs and search, and unrelated tabs (feeds, listings, videos) still eat the session.",
+      "Other blockers block for example whole YouTube and it has no sense because there are tutorials on YouTube you still need to watch or similarly you have sites that have bad and good content and you just cannot block whole site because of that instead you have to make checks on specific articles/videos etc. and that's what FireFocus AI does.",
     firefocusBuilt:
-      "The whole product was made with Cursor AI: Chrome extension, React marketing site and dashboard, Express API, Postgres, Stripe plans, and Gemini checks that keep on-topic pages and wall the rest.",
+      "I made whole product with Cursor AI to learn building by prompting and just code reviewing + planning architecturex",
     firefocusResult:
-      "Live at firefocusai.com, with a free plan plus Basic and Pro.",
+      "Working Chrome extension already used by 30+ people with functional AI Gemini API calls, stripe connected for plans, user dashboard, landing page & admin dashboard for managing users and analysis (usage, $ spent etc.)",
     waldoProblem:
       "A Where's Waldo game is easy to cheat if the browser decides whether a click is correct, or if the timer lives only on the client. Guesses and scores have to be checked on the server, and they still have to work on phones and big screens.",
     waldoBuilt:

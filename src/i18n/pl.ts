@@ -166,11 +166,11 @@ export const pl: Translation = {
     gitxResult:
       "Działająca aplikacja full-stackowa: uwierzytelnianie, funckje społecznościowe i sesje współdziałają ze sobą od backendu po frontend. Jest to projekt, którego używam, aby pokazać, jak postrzegam API, dane i interfejs użytkownika.",
     firefocusProblem:
-      "Blokery domen są zbyt tępe. Podczas prawdziwej pracy nadal potrzebujesz dokumentacji i wyszukiwarki, a niepowiązane karty (feedy, ogłoszenia, filmy) i tak zjadają sesję.",
+      "Inne programy blokujące blokują na przykład całą witrynę YouTube, co nie ma sensu, ponieważ na YouTube znajdują się tutoriale, które są przydatne, lub podobnie są strony zawierające zarówno złe, jak i dobre treści, więc nie można z tego powodu blokować całej witryny; zamiast tego trzeba sprawdzać konkretne artykuły, filmy itp., i właśnie to robi FireFocus AI.",
     firefocusBuilt:
-      "Cały produkt został zrobiony w Cursor AI: rozszerzenie Chrome, strona marketingowa i panel w React, API w Express, Postgres, plany w Stripe oraz sprawdzenia Gemini, które zostawiają strony na temat, a resztę zatrzymują ścianą.",
+      "Stworzyłem cały produkt przy użyciu Cursor AI, aby nauczyć się tworzenia programów promptując i po prostu robiąc code review i planując architekturę.",
     firefocusResult:
-      "Działa na firefocusai.com, z planem darmowym oraz Basic i Pro.",
+      "Działające rozszerzenie Chrome, z którego korzysta już ponad 30 osób, z działającym połączeniem API Gemini AI, integracją ze Stripe do realizacji subskrypcji, panelem użytkownika, landing pagem oraz panelem admina do zarządzania użytkownikami i analizy (wykorzystanie, wydane środki itp.)",
     waldoProblem:
       "W grze typu „Gdzie jest Waldo?” łatwo jest oszukiwać, jeśli to przeglądarka decyduje, czy kliknięcie jest prawidłowe, albo jeśli licznik czasu działa wyłącznie po stronie klienta. Odpowiedzi i wyniki muszą być weryfikowane na serwerze, a gra musi działać zarówno na telefonach, jak i na dużych ekranach.",
     waldoBuilt:
