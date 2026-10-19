@@ -177,7 +177,6 @@ export const pl: Translation = {
       "Stworzyłem interfejs użytkownika gry opartej na React'ie ('celownik', lista postaci, kilka poziomów) w oparciu o API Express z wykorzystaniem Prisma i PostgreSQL. Kliknięcia są normalizowane, dzięki czemu współrzędne są spójne niezależnie od rozmiaru ekranu; backend weryfikuje trafienia, mierzy czas gry oraz zapisuje nazwy graczy w tabeli wyników.",
     waldoResult:
       "Wybierz scenę, znajdź postacie i opublikuj swój czas. Wykorzystuje podobną implementację stacku PERN co GitX (interfejs użytkownika, API) oraz bazę danych, ale w innym rodzaju produktu. Dodatkowo wykorzystuję trochę kombinacji z JavaScriptem do oblicznia pozycji kliknięć na ekranie i wyliczaniu gdzie zostało procentowo kliknięte na zdjęciu.",
-    gitxShotGif: "Krótka wycieczka po aplikacji.",
     gitxShotHome: "Przeglądaj posty.",
     gitxShotExplore: "Wyszukaj ludzi.",
     gitxShotGroup: "Podziel się czymś z grupą.",

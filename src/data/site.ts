@@ -12,6 +12,7 @@ export const gitx = {
   id: 'gitx',
   github: 'https://github.com/WujecDamian/gitX',
   live: 'https://gitx.wujecdamian.dev/',
+  youtube: '4OHvtWrH0yw',
   stack: ['postgresql', 'express', 'react', 'nodejs'] as const,
 }
 

@@ -77,7 +77,9 @@ export const ProjectPage = () => {
             />
           </div>
         </section>
-      ) : "shots" in copy && copy.shots ? (
+      ) : null}
+
+      {"shots" in copy && copy.shots ? (
         <section className={styles.block}>
           <h2 className={styles.block__title}>{t.caseStudy.screenshots}</h2>
           <div className={styles.shots}>

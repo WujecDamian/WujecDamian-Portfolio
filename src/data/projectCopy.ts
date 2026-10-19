@@ -13,10 +13,6 @@ export const getProjectCopy = (id: Project["id"], t: Translation) => {
       result: t.caseStudy.gitxResult,
       shots: [
         {
-          src: "/projects/gitx/gif_800w_12fps-ezgif.com-optimize.gif",
-          caption: t.caseStudy.gitxShotGif,
-        },
-        {
           src: "/projects/gitx/HomeScreen.jpg",
           caption: t.caseStudy.gitxShotHome,
         },
