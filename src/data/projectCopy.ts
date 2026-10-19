@@ -12,27 +12,37 @@ export const getProjectCopy = (id: Project["id"], t: Translation) => {
       built: t.caseStudy.gitxBuilt,
       result: t.caseStudy.gitxResult,
       shots: [
-        { src: "/projects/gitx/home.jpg", caption: t.caseStudy.gitxShotHome },
         {
-          src: "/projects/gitx/explore.jpg",
+          src: "/projects/gitx/gif_800w_12fps-ezgif.com-optimize.gif",
+          caption: t.caseStudy.gitxShotGif,
+        },
+        {
+          src: "/projects/gitx/HomeScreen.jpg",
+          caption: t.caseStudy.gitxShotHome,
+        },
+        {
+          src: "/projects/gitx/ExploreScreen.jpg",
           caption: t.caseStudy.gitxShotExplore,
         },
-        { src: "/projects/gitx/chat.jpg", caption: t.caseStudy.gitxShotChat },
         {
-          src: "/projects/gitx/group-post.jpg",
-          caption: t.caseStudy.gitxShotGroupPost,
+          src: "/projects/gitx/GroupScreen.jpg",
+          caption: t.caseStudy.gitxShotGroup,
         },
         {
-          src: "/projects/gitx/group-chat.jpg",
-          caption: t.caseStudy.gitxShotGroupChat,
-        },
-        {
-          src: "/projects/gitx/profile.jpg",
+          src: "/projects/gitx/ProfileScreen.jpg",
           caption: t.caseStudy.gitxShotProfile,
         },
         {
-          src: "/projects/gitx/profile-edit.jpg",
+          src: "/projects/gitx/EditScreen.jpg",
           caption: t.caseStudy.gitxShotProfileEdit,
+        },
+        {
+          src: "/projects/gitx/RecruiterScreen.jpg",
+          caption: t.caseStudy.gitxShotRecruiter,
+        },
+        {
+          src: "/projects/gitx/CandidateScreen.jpg",
+          caption: t.caseStudy.gitxShotCandidate,
         },
       ],
     };
