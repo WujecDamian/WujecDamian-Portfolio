@@ -1,6 +1,7 @@
 export const site = {
   name: 'Damian Wujec',
   email: 'wujecdamian12@gmail.com',
+  phone: '+48 695 227 457',
   github: 'https://github.com/WujecDamian',
   linkedin: 'https://www.linkedin.com/in/damian-wujec-5b8a233ab/',
   cvPath: '/Damian-Wujec-CV.pdf',
