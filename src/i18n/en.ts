@@ -39,6 +39,7 @@ export const en = {
     data: "Databases",
     concepts: "Concepts",
     tools: "DevOps / tools",
+    ai: "AI / LLM",
     spoken: "Spoken languages",
     items: {
       html: "HTML",
@@ -59,6 +60,10 @@ export const en = {
       socketio: "Socket.IO",
       postgresql: "PostgreSQL",
       redis: "Redis",
+      bigquery: "BigQuery",
+      gemini: "Gemini API (Vertex AI)",
+      embeddings: "embeddings & semantic similarity",
+      llmevals: "LLM evals",
       rest: "REST API",
       authentication: "authentication",
       authorization: "authorization",
@@ -69,7 +74,9 @@ export const en = {
       vitest: "Vitest",
       testinglibrary: "React Testing Library",
       cursor: "Cursor AI",
+      claudecode: "Claude Code",
       docker: "Docker",
+      googlecloud: "Google Cloud Run",
       polish: "Polish — C2 (native)",
       english: "English — B2/C1",
     },
@@ -84,7 +91,7 @@ export const en = {
     firefocusTitle: "FireFocus AI",
     firefocusBlurb:
       "A Chrome extension that blocks off-topic pages during a timed focus session. Completely made with Cursor AI. Integrated with Gemini API",
-    firefocusStackMore: "Chrome extension, Stripe, Gemini",
+    firefocusStackMore: "Chrome extension, Stripe, Docker",
     waldoTitle: "Where's Waldo?",
     waldoBlurb:
       "A photo-tagging game: find hidden characters in crowded scenes, timed by the server, with a public leaderboard.",

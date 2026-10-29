@@ -41,6 +41,7 @@ export const pl: Translation = {
     data: "Bazy danych",
     concepts: "Koncepty",
     tools: "DevOps / narzędzia",
+    ai: "AI / LLM",
     spoken: "Języki obce",
     items: {
       html: "HTML",
@@ -61,6 +62,10 @@ export const pl: Translation = {
       socketio: "Socket.IO",
       postgresql: "PostgreSQL",
       redis: "Redis",
+      bigquery: "BigQuery",
+      gemini: "Gemini API (Vertex AI)",
+      embeddings: "embeddingi i podobieństwo semantyczne",
+      llmevals: "ewaluacja LLM",
       rest: "REST API",
       authentication: "uwierzytelnianie",
       authorization: "autoryzacja",
@@ -71,7 +76,9 @@ export const pl: Translation = {
       vitest: "Vitest",
       testinglibrary: "React Testing Library",
       cursor: "Cursor AI",
+      claudecode: "Claude Code",
       docker: "Docker",
+      googlecloud: "Google Cloud Run",
       polish: "Polski — C2 (ojczysty)",
       english: "Angielski — B2/C1",
     },
@@ -86,7 +93,7 @@ export const pl: Translation = {
     firefocusTitle: "FireFocus AI",
     firefocusBlurb:
       "Rozszerzenie Chrome, które blokuje strony niezwiązane z tematem podczas sesji nauki. W całości stworzone przy użyciu Cursor AI. Zintegrowane z interfejsem API Gemini",
-    firefocusStackMore: "Rozszerzenie Chrome, Stripe, Gemini",
+    firefocusStackMore: "Rozszerzenie Chrome, Stripe, Docker",
     waldoTitle: "Gdzie jest Wally?",
     waldoBlurb:
       "Gra polegająca na oznaczaniu postaci na zdjęciach: odnajduj ukryte postacie na zatłoczonych scenach, z czasowem liczonym przez backend i publiczną tabelą wyników.",
