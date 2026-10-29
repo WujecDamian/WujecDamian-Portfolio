@@ -28,12 +28,14 @@ export const pl: Translation = {
   },
   about: {
     heading: "O mnie",
+    eyebrow: "Kim jestem",
     p1: "Cześć, jestem Damian! Od dłuższego czasu fascynuje mnie tworzenie aplikacji internetowych. Postrzegam programowanie jako drogę bez mety. Taką, która nieustannie wymaga uczenia się nowych rzeczy i dostosowywania się do szybko zmieniającego się otoczenia. To wyzwanie idealnie mi odpowiada i sprawia, że mam ogromną motywację do codziennego doskonalenia się.",
     p2: "Uwielbiam tworzyć rozwiązania, które pomagają rozwiązywać rzeczywiste problemy. Szukam stanowiska, na którym będę mógł rozwijać się wraz z zespołem, uczyć się od innych i wnosić wzajemną wartość.",
     p3: "Programowanie to moja długoterminowa wizja. Chcę nadal doskonalić się w podstawach i nieustannie rozwijać swoje umiejętności, aby móc korzystać z AI jako z dźwigni, jednocześnie zgłębiając wszystkie nowości w tej dynamicznie rozwijającej się dziedzinie.",
   },
   skills: {
     heading: "Umiejętności",
+    eyebrow: "Z czym pracuję",
     languages: "Języki",
     frameworks: "Frameworki / biblioteki",
     data: "Bazy danych",
@@ -76,6 +78,7 @@ export const pl: Translation = {
   },
   project: {
     heading: "Projekty",
+    eyebrow: "Wybrane projekty",
     gitxTitle: "GitX",
     gitxBlurb:
       "Fullstackowa platforma społecznościowa dla programistów, rekruterów i firm, inspirowana serwisami X (Twitter), LinkedIn, Slack i GitHub.",
@@ -99,6 +102,7 @@ export const pl: Translation = {
   },
   education: {
     heading: "Wykształcenie",
+    eyebrow: "Gdzie się uczyłem",
     items: [
       {
         school: "The Odin Project",
@@ -116,6 +120,7 @@ export const pl: Translation = {
   },
   experience: {
     heading: "Doświadczenie",
+    eyebrow: "Gdzie pracowałem",
     jobs: [
       {
         role: "Detailer samochodowy",
@@ -152,6 +157,7 @@ export const pl: Translation = {
   },
   contact: {
     heading: "Kontakt",
+    eyebrow: "Napisz do mnie",
     invite:
       "Jeśli poszukujecie programisty junior full-stack lub front-end to zapraszam do kontaktu.",
     email: "E-mail",

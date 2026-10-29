@@ -13,8 +13,8 @@ export const Contact = () => {
   const { t } = useLanguage()
 
   return (
-    <Section id="contact" title={t.contact.heading}>
-      <p className={styles.invite}>{t.contact.invite}</p>
+    <Section id="contact" eyebrow={t.contact.eyebrow} title={t.contact.heading}>
+      <p className={styles.invite} data-reveal>{t.contact.invite}</p>
       <div className={styles.links}>
         <a
           className={`${styles.link} ${styles['link--email']}`}

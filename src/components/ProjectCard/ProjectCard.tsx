@@ -12,7 +12,7 @@ export const ProjectCard = () => {
   const { t } = useLanguage()
 
   return (
-    <Section id="projects" title={t.project.heading}>
+    <Section id="projects" eyebrow={t.project.eyebrow} title={t.project.heading}>
       <div className={styles.list}>
         {projects.map((project) => {
           const copy = getProjectCopy(project.id, t)
@@ -22,6 +22,7 @@ export const ProjectCard = () => {
               key={project.id}
               id={project.id}
               className={styles.card}
+              data-reveal
             >
               <Link
                 to={`/project/${project.id}`}

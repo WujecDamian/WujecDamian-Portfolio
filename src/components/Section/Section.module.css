@@ -1,6 +1,16 @@
 .section {
   padding: 56px 0;
   border-top: 1px solid var(--border);
+  scroll-margin-top: var(--header-h);
+}
+
+.section__eyebrow {
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
 }
 
 .section__title {

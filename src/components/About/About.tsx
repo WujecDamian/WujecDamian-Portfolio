@@ -6,8 +6,8 @@ export const About = () => {
   const { t } = useLanguage()
 
   return (
-    <Section id="about" title={t.about.heading}>
-      <div className={styles.about}>
+    <Section id="about" eyebrow={t.about.eyebrow} title={t.about.heading}>
+      <div className={styles.about} data-reveal>
         <p>{t.about.p1}</p>
         <p>{t.about.p2}</p>
         <p>{t.about.p3}</p>

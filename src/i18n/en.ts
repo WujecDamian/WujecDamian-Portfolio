@@ -26,12 +26,14 @@ export const en = {
   },
   about: {
     heading: "About",
+    eyebrow: "Who I am",
     p1: "Hi, I’m Damian! I’ve been fascinated by building web applications for quite some time. I see programming as a path with no finish line. One that constantly demands learning new things and adapting to a rapidly changing environment. This challenge suits me perfectly and keeps me highly motivated to improve every day.",
     p2: "I love creating solutions that solve real problems. I’m looking for a role where I can grow with a team, learn from others, and bring mutual value.",
     p3: "Programming is my long-term vision. I want to keep mastering the fundamentals and continuously grow my skills so I can leverage them with AI, while exploring everything new in this fast-moving field.",
   },
   skills: {
     heading: "Skills",
+    eyebrow: "What I work with",
     languages: "Languages",
     frameworks: "Frameworks / libraries",
     data: "Databases",
@@ -74,6 +76,7 @@ export const en = {
   },
   project: {
     heading: "Projects",
+    eyebrow: "Selected work",
     gitxTitle: "GitX",
     gitxBlurb:
       "A full-stack social platform for developers, recruiters and companies, inspired by X (Twitter), LinkedIn, Slack and GitHub.",
@@ -97,6 +100,7 @@ export const en = {
   },
   education: {
     heading: "Education",
+    eyebrow: "Where I learned",
     items: [
       {
         school: "The Odin Project",
@@ -115,6 +119,7 @@ export const en = {
   },
   experience: {
     heading: "Experience",
+    eyebrow: "Where I've worked",
     jobs: [
       {
         role: "Automotive Detailer",
@@ -151,6 +156,7 @@ export const en = {
   },
   contact: {
     heading: "Contact",
+    eyebrow: "Get in touch",
     invite:
       "If you are hiring a junior full-stack or front-end developer, I would like to hear from you.",
     email: "Email",

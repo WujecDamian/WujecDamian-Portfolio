@@ -6,10 +6,14 @@ export const Experience = () => {
   const { t } = useLanguage()
 
   return (
-    <Section id="experience" title={t.experience.heading}>
+    <Section id="experience" eyebrow={t.experience.eyebrow} title={t.experience.heading}>
       <ol className={styles.list}>
         {t.experience.jobs.map((job) => (
-          <li key={`${job.company}-${job.dates}`}>
+          <li
+            key={`${job.company}-${job.dates}`}
+            className={styles.job}
+            data-reveal
+          >
             <div className={styles.job__header}>
               <h3 className={styles.job__role}>{job.role}</h3>
               <p className={styles.job__dates}>{job.dates}</p>
