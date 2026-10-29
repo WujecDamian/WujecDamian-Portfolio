@@ -55,16 +55,6 @@ export const ProjectPage = () => {
         <p className={styles.page__stackMore}>{copy.stackMore}</p>
       </div>
 
-      <section className={styles.block}>
-        <h2 className={styles.block__title}>{copy.problemFixes}</h2>
-        <p className={styles.block__body}>{copy.problem}</p>
-      </section>
-
-      <section className={styles.block}>
-        <h2 className={styles.block__title}>{t.caseStudy.built}</h2>
-        <p className={styles.block__body}>{copy.built}</p>
-      </section>
-
       {"youtube" in project ? (
         <section className={styles.block}>
           <h2 className={styles.block__title}>{t.caseStudy.video}</h2>
@@ -78,6 +68,16 @@ export const ProjectPage = () => {
           </div>
         </section>
       ) : null}
+
+      <section className={styles.block}>
+        <h2 className={styles.block__title}>{copy.problemFixes}</h2>
+        <p className={styles.block__body}>{copy.problem}</p>
+      </section>
+
+      <section className={styles.block}>
+        <h2 className={styles.block__title}>{t.caseStudy.built}</h2>
+        <p className={styles.block__body}>{copy.built}</p>
+      </section>
 
       {"shots" in copy && copy.shots ? (
         <section className={styles.block}>
