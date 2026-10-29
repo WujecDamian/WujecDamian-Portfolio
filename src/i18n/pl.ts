@@ -178,6 +178,11 @@ export const pl: Translation = {
     video: "Wideo",
     result: "Efekt",
     links: "Linki",
+    nextProject: "Następny projekt",
+    enlarge: "Powiększ zrzut ekranu",
+    closeLightbox: "Zamknij",
+    prevShot: "Poprzedni zrzut ekranu",
+    nextShot: "Następny zrzut ekranu",
     gitxProblem:
       "GitX wypełnia lukę dla programistów i osób poszukujących pracy, które przenoszą swoją tożsamość cyfrową między platformami. Zamiast zmuszać rekruterów i programistów do przechodzenia między niepowiązanymi ze sobą stronami, GitX konsoliduje całą Twoją aktywność zawodową w jednym, ujednoliconym środowisku.",
     gitxBuilt:

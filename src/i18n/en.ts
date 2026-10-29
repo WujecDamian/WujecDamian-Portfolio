@@ -177,6 +177,11 @@ export const en = {
     video: "Video",
     result: "Result",
     links: "Links",
+    nextProject: "Next project",
+    enlarge: "Enlarge screenshot",
+    closeLightbox: "Close",
+    prevShot: "Previous screenshot",
+    nextShot: "Next screenshot",
     gitxProblem:
       "GitX bridges the gap for developers and job seekers moving their digital identity between platforms. Instead of forcing recruiters and engineers to hop across disconnected sites, GitX consolidates your full professional footprint into a single, unified workspace.",
     gitxBuilt:

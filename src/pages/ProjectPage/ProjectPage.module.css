@@ -4,7 +4,39 @@
 }
 
 .page__back {
+  position: sticky;
+  top: calc(var(--header-h) + 12px);
+  z-index: 5;
+  justify-self: start;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 36px;
+  padding: 6px 14px 6px 10px;
+  border-radius: var(--radius-pill);
+  background: var(--glass-bg);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+  box-shadow: var(--glass-shadow);
   font-size: 14px;
+  text-decoration: none;
+  transition: background-color 160ms ease;
+}
+
+.page__back:hover {
+  text-decoration: none;
+  background: var(--glass-bg-strong);
+}
+
+.page__backIcon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  transition: translate 200ms ease;
+}
+
+.page__back:hover .page__backIcon {
+  translate: -3px 0;
 }
 
 .page__title {
@@ -53,11 +85,28 @@
   gap: 28px;
 }
 
-.shot img {
+.shot {
+  margin: 0;
+}
+
+.shot__btn {
+  display: block;
   width: 100%;
-  border-radius: var(--radius-lg);
+  padding: 0;
   border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
   background: var(--bg-subtle);
+  cursor: zoom-in;
+}
+
+.shot__btn img {
+  width: 100%;
+  transition: scale 400ms ease;
+}
+
+.shot__btn:hover img {
+  scale: 1.02;
 }
 
 .shot figcaption {
@@ -128,4 +177,111 @@
 
 .link--github:hover {
   background: #000;
+}
+
+.next {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 36px;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow);
+  color: inherit;
+  text-decoration: none;
+  transition:
+    box-shadow 240ms ease,
+    translate 240ms ease;
+}
+
+.next:hover {
+  text-decoration: none;
+  translate: 0 -3px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+}
+
+.next__cover {
+  width: 160px;
+  flex-shrink: 0;
+  border-radius: var(--radius-md);
+  background: var(--bg-subtle);
+}
+
+.next__text {
+  display: grid;
+  gap: 2px;
+  margin-right: auto;
+}
+
+.next__label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.next__title {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+.next__icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  color: var(--accent);
+  transition: translate 200ms ease;
+}
+
+.next:hover .next__icon {
+  translate: 4px 0;
+}
+
+@media (max-width: 720px) {
+  .next__cover {
+    width: 96px;
+  }
+
+  .next__title {
+    font-size: 19px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shot__btn img,
+  .page__backIcon,
+  .next,
+  .next__icon {
+    transition: none;
+  }
+}
+
+/* Reading progress under the header; hidden where scroll timelines are unsupported. */
+.progress {
+  display: none;
+}
+
+@supports (animation-timeline: scroll()) {
+  .progress {
+    display: block;
+    position: fixed;
+    top: var(--header-h);
+    left: 0;
+    right: 0;
+    z-index: 11;
+    height: 2px;
+    background: var(--accent);
+    transform-origin: left;
+    animation: progress linear both;
+    animation-timeline: scroll(root);
+  }
+}
+
+@keyframes progress {
+  from {
+    transform: scaleX(0);
+  }
 }
