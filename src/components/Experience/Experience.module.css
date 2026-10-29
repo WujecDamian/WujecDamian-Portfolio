@@ -6,6 +6,43 @@
   list-style: none;
 }
 
+/* Timeline: a rail on the left, one dot per item. */
+.job {
+  position: relative;
+  padding-left: 32px;
+}
+
+.job::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 20px;
+  bottom: -32px;
+  width: 2px;
+  background: var(--border);
+}
+
+.job:last-child::before {
+  display: none;
+}
+
+.job::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  corner-shape: round;
+  border: 2px solid var(--accent);
+  background: var(--bg);
+}
+
+.job:first-child::after {
+  background: var(--accent);
+}
+
 .job__header {
   display: flex;
   flex-wrap: wrap;
@@ -34,4 +71,38 @@
   color: var(--text-muted);
   display: grid;
   gap: 6px;
+}
+
+/* Rail fills and dot lights up as the item passes a line 45% down the screen. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .job::before {
+      background:
+        linear-gradient(var(--accent), var(--accent)) top / 100% 0% no-repeat,
+        var(--border);
+      animation: rail-fill linear both;
+      animation-timeline: view(block 45% 55%);
+    }
+
+    .job::after,
+    .job:first-child::after {
+      animation: dot-fill linear both;
+      animation-timeline: view(block 45% 55%);
+    }
+  }
+}
+
+@keyframes rail-fill {
+  to {
+    background-size: 100% 100%, auto;
+  }
+}
+
+@keyframes dot-fill {
+  from {
+    background: var(--bg);
+  }
+  to {
+    background: var(--accent);
+  }
 }
