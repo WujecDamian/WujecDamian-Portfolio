@@ -48,6 +48,10 @@ export const pl: Translation = {
       express: "Express",
       prisma: "Prisma",
       vite: "Vite",
+      redux: "Redux Toolkit",
+      rtkquery: "RTK Query",
+      tailwind: "Tailwind CSS",
+      shadcn: "shadcn/ui",
       passport: "Passport.js",
       socketio: "Socket.IO",
       postgresql: "PostgreSQL",
@@ -79,6 +83,10 @@ export const pl: Translation = {
     waldoBlurb:
       "Gra polegająca na oznaczaniu postaci na zdjęciach: odnajduj ukryte postacie na zatłoczonych scenach, z czasowem liczonym przez backend i publiczną tabelą wyników.",
     waldoStackMore: "+4 więcej...",
+    wiadomosciTitle: "Wiadomości CRUD",
+    wiadomosciBlurb:
+      "Celowo mała fullstackowa aplikacja CRUD, która pokazuje inżynierię wokół niej: walidację po obu stronach, 44 testy, CI i działające wdrożenie. React, Redux Toolkit, RTK Query, Tailwind i shadcn/ui.",
+    wiadomosciStackMore: "+5 więcej...",
     details: "Szczegóły",
     live: "Podgląd na żywo",
     github: "GitHub",
@@ -177,6 +185,13 @@ export const pl: Translation = {
       "Stworzyłem interfejs użytkownika gry opartej na React'ie ('celownik', lista postaci, kilka poziomów) w oparciu o API Express z wykorzystaniem Prisma i PostgreSQL. Kliknięcia są normalizowane, dzięki czemu współrzędne są spójne niezależnie od rozmiaru ekranu; backend weryfikuje trafienia, mierzy czas gry oraz zapisuje nazwy graczy w tabeli wyników.",
     waldoResult:
       "Wybierz scenę, znajdź postacie i opublikuj swój czas. Wykorzystuje podobną implementację stacku PERN co GitX (interfejs użytkownika, API) oraz bazę danych, ale w innym rodzaju produktu. Dodatkowo wykorzystuję trochę kombinacji z JavaScriptem do oblicznia pozycji kliknięć na ekranie i wyliczaniu gdzie zostało procentowo kliknięte na zdjęciu.",
+    wiadomosciProblemFixes: "Dlaczego to zbudowałem",
+    wiadomosciProblem:
+      "Aplikacja CRUD to najprostsza rzecz, jaką można zbudować, więc prawdziwe pytanie brzmi: jak dobrze jest wykonana. Chciałem jednego małego projektu, który pokaże, że potrafię porządnie zrobić mniej efektowne rzeczy: nigdy nie ufać danym wejściowym (walidacja w przeglądarce i ponownie na serwerze), testować przypadki brzegowe, wyłapywać regresje w CI i wdrożyć całość pod prawdziwym adresem. To także projekt, w którym nauczyłem się Redux Toolkit, RTK Query, Tailwind CSS i shadcn/ui.",
+    wiadomosciBuilt:
+      "Frontend w React 19 i TypeScript, który korzysta z RTK Query do pobierania danych, cache'owania i unieważniania cache, ze stanami ładowania i błędów, ponawianiem oraz potwierdzeniem przed usunięciem, ostylowany przez Tailwind i shadcn/ui. API w Express 5 i Prisma 7 na PostgreSQL z migracjami. Walidacja działa po obu stronach: formularz pokazuje błędy przy polu i licznik 0/50, a serwer niezależnie przycina, sprawdza długość i UUID każdej wartości oraz zwraca poprawne kody statusu (400, 404, 500, 204). Do tego lista dozwolonych originów CORS, limit body 10 kB i centralna obsługa błędów, która nie ujawnia szczegółów wewnętrznych. 44 testy Vitest + Supertest (ok. 91% pokrycia linii) obejmują długości graniczne i każdą gałąź każdego endpointu. GitHub Actions uruchamia typecheck, lint, testy i build przy każdym pushu i PR, a main jest chroniony. Aplikacja działa na Cloudflare Pages, Render (Docker) i Supabase, a Docker Compose uruchamia cały stack lokalnie.",
+    wiadomosciResult:
+      "Działająca aplikacja, która wdraża się automatycznie po każdym pushu do main, za zielonym pipeline'em CI. Jest mała celowo: chodzi o rzemiosło wokół niej. Warto wiedzieć, że testy mockują bazę danych, więc sprawdzają logikę API i kontrakt HTTP, a nie prawdziwy SQL. Przed SQL injection chronią zapytania parametryzowane Prismy, a nie sama walidacja.",
     gitxShotHome: "Przeglądaj posty.",
     gitxShotExplore: "Wyszukaj ludzi.",
     gitxShotGroup: "Podziel się czymś z grupą.",

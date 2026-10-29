@@ -46,6 +46,10 @@ export const en = {
       express: "Express",
       prisma: "Prisma",
       vite: "Vite",
+      redux: "Redux Toolkit",
+      rtkquery: "RTK Query",
+      tailwind: "Tailwind CSS",
+      shadcn: "shadcn/ui",
       passport: "Passport.js",
       socketio: "Socket.IO",
       postgresql: "PostgreSQL",
@@ -77,6 +81,10 @@ export const en = {
     waldoBlurb:
       "A photo-tagging game: find hidden characters in crowded scenes, timed by the server, with a public leaderboard.",
     waldoStackMore: "+4 more...",
+    wiadomosciTitle: "Messages CRUD",
+    wiadomosciBlurb:
+      "A deliberately small full-stack CRUD app, built to show the engineering around it: validation on both sides, 44 tests, CI and a live deployment. React, Redux Toolkit, RTK Query, Tailwind and shadcn/ui.",
+    wiadomosciStackMore: "+5 more...",
     details: "Details",
     live: "Live preview",
     github: "GitHub",
@@ -176,6 +184,13 @@ export const en = {
       "I built a React game UI (targeting box, character list, several levels) on an Express API with Prisma and PostgreSQL. Clicks are normalized so coordinates match across screen sizes; the backend validates hits, times the run, and stores names on a leaderboard.",
     waldoResult:
       "Pick a scene, find the characters, and post your time. It shows similar PERN implementation as GitX (UI, API), and database on a different kind of product.",
+    wiadomosciProblemFixes: "Why I built it",
+    wiadomosciProblem:
+      "A CRUD app is the simplest thing you can build, so the real question is how well it is built. I wanted one small project to prove I can do the unglamorous parts properly: never trust input (validate in the browser and again on the server), test the edge cases, catch regressions in CI, and ship to a real URL. It is also where I picked up Redux Toolkit, RTK Query, Tailwind CSS and shadcn/ui.",
+    wiadomosciBuilt:
+      "A React 19 + TypeScript frontend that uses RTK Query for fetching, caching and cache invalidation, with loading and error states, retry, and a confirmation before delete, styled with Tailwind and shadcn/ui. An Express 5 + Prisma 7 API on PostgreSQL with migrations. Validation lives on both sides: the form shows inline errors and a 0/50 counter, while the server independently trims, length-checks and UUID-checks every input and answers with correct status codes (400, 404, 500, 204). Also a CORS allow-list, a 10 kB body limit and a central error handler that never leaks internals. 44 Vitest + Supertest tests (about 91% line coverage) cover boundary lengths and every branch of every endpoint. GitHub Actions runs typecheck, lint, tests and build on every push and PR, and main is protected. It runs on Cloudflare Pages, Render (Docker) and Supabase, and Docker Compose starts the whole stack locally.",
+    wiadomosciResult:
+      "A live app that redeploys on every push to main, behind a green CI pipeline. It is small on purpose: the point is the craft around it. One thing worth knowing: the tests mock the database, so they check the API logic and HTTP contract, not real SQL. SQL injection is handled by Prisma's parameterized queries, not by the validation.",
     gitxShotHome: "Read posts.",
     gitxShotExplore: "Search people.",
     gitxShotGroup: "Share something with your group.",

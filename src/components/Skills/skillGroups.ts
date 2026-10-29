@@ -7,6 +7,10 @@ export const skillGroups = [
     labelKey: 'frameworks',
     items: [
       'react',
+      'redux',
+      'rtkquery',
+      'tailwind',
+      'shadcn',
       'nodejs',
       'express',
       'prisma',

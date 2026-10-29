@@ -37,6 +37,14 @@ export const waldo = {
   stack: ['react', 'express', 'postgresql', 'prisma'] as const,
 }
 
-export const projects = [gitx, firefocus, waldo] as const
+export const wiadomosci = {
+  id: 'wiadomosci',
+  github: 'https://github.com/WujecDamian/CRUD_wiadomosci',
+  live: 'https://wiadomosci.wujecdamian.dev',
+  youtube: 'whnywAikeC0',
+  stack: ['react', 'redux', 'rtkquery', 'tailwind', 'shadcn', 'vitest'] as const,
+}
+
+export const projects = [gitx, firefocus, wiadomosci, waldo] as const
 
 export type Project = (typeof projects)[number]

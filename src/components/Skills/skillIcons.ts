@@ -16,9 +16,12 @@ import prisma from '../../assets/skills/prisma.svg'
 import react from '../../assets/skills/react.svg'
 import redis from '../../assets/skills/redis.svg'
 import rest from '../../assets/skills/rest.svg'
+import redux from '../../assets/skills/redux.svg'
+import shadcn from '../../assets/skills/shadcn.svg'
 import socketio from '../../assets/skills/socketio.svg'
 import sql from '../../assets/skills/sql.svg'
 import statemanagement from '../../assets/skills/statemanagement.svg'
+import tailwind from '../../assets/skills/tailwind.svg'
 import testinglibrary from '../../assets/skills/testinglibrary.svg'
 import typescript from '../../assets/skills/typescript.svg'
 import vite from '../../assets/skills/vite.svg'
@@ -32,6 +35,10 @@ export const skillIcons: Record<SkillId, string> = {
   typescript,
   sql,
   react,
+  redux,
+  rtkquery: redux,
+  tailwind,
+  shadcn,
   nodejs,
   express,
   prisma,

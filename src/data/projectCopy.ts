@@ -56,6 +56,18 @@ export const getProjectCopy = (id: Project["id"], t: Translation) => {
     };
   }
 
+  if (id === "wiadomosci") {
+    return {
+      title: t.project.wiadomosciTitle,
+      blurb: t.project.wiadomosciBlurb,
+      stackMore: t.project.wiadomosciStackMore,
+      problemFixes: t.caseStudy.wiadomosciProblemFixes,
+      problem: t.caseStudy.wiadomosciProblem,
+      built: t.caseStudy.wiadomosciBuilt,
+      result: t.caseStudy.wiadomosciResult,
+    };
+  }
+
   return {
     title: t.project.waldoTitle,
     blurb: t.project.waldoBlurb,
