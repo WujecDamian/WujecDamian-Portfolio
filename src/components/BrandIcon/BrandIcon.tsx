@@ -38,6 +38,15 @@ export const MailIcon = ({ className }: IconProps) => (
   </svg>
 )
 
+export const PhoneIcon = ({ className }: IconProps) => (
+  <svg className={className} viewBox="0 0 24 24" aria-hidden="true">
+    <path
+      fill="currentColor"
+      d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.61 21 3 13.39 3 4c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02z"
+    />
+  </svg>
+)
+
 export const ArrowRightIcon = ({ className }: IconProps) => (
   <svg className={className} viewBox="0 0 24 24" aria-hidden="true">
     <path
@@ -52,6 +61,42 @@ export const ExternalLinkIcon = ({ className }: IconProps) => (
     <path
       fill="currentColor"
       d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14zM5 5h6v2H7v10h10v-4h2v6H5z"
+    />
+  </svg>
+)
+
+export const ArrowLeftIcon = ({ className }: IconProps) => (
+  <svg className={className} viewBox="0 0 24 24" aria-hidden="true">
+    <path
+      fill="currentColor"
+      d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20z"
+    />
+  </svg>
+)
+
+export const ChevronLeftIcon = ({ className }: IconProps) => (
+  <svg className={className} viewBox="0 0 24 24" aria-hidden="true">
+    <path fill="currentColor" d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+  </svg>
+)
+
+export const ChevronRightIcon = ({ className }: IconProps) => (
+  <svg className={className} viewBox="0 0 24 24" aria-hidden="true">
+    <path fill="currentColor" d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+  </svg>
+)
+
+export const MenuIcon = ({ className }: IconProps) => (
+  <svg className={className} viewBox="0 0 24 24" aria-hidden="true">
+    <path fill="currentColor" d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z" />
+  </svg>
+)
+
+export const CloseIcon = ({ className }: IconProps) => (
+  <svg className={className} viewBox="0 0 24 24" aria-hidden="true">
+    <path
+      fill="currentColor"
+      d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
     />
   </svg>
 )
