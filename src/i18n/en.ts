@@ -10,6 +10,8 @@ export const en = {
     langEn: "EN",
     langPl: "PL",
     langAria: "Language",
+    menuOpen: "Open menu",
+    menuClose: "Close menu",
   },
   hero: {
     name: "Damian Wujec",

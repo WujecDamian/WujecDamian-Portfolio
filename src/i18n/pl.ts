@@ -12,6 +12,8 @@ export const pl: Translation = {
     langEn: "EN",
     langPl: "PL",
     langAria: "Język",
+    menuOpen: "Otwórz menu",
+    menuClose: "Zamknij menu",
   },
   hero: {
     name: "Damian Wujec",
