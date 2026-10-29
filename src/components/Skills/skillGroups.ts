@@ -31,6 +31,10 @@ export const skillGroups = [
     labelKey: 'tools',
     items: ['git', 'eslint', 'vitest', 'testinglibrary', 'cursor', 'docker'],
   },
+  {
+    labelKey: 'spoken',
+    items: ['polish', 'english'],
+  },
 ] as const
 
 export type SkillId = (typeof skillGroups)[number]['items'][number]

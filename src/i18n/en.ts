@@ -37,6 +37,7 @@ export const en = {
     data: "Databases",
     concepts: "Concepts",
     tools: "DevOps / tools",
+    spoken: "Spoken languages",
     items: {
       html: "HTML",
       css: "CSS",
@@ -67,6 +68,8 @@ export const en = {
       testinglibrary: "React Testing Library",
       cursor: "Cursor AI",
       docker: "Docker",
+      polish: "Polish — C2 (native)",
+      english: "English — B2/C1",
     },
   },
   project: {

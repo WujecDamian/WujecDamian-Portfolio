@@ -39,6 +39,7 @@ export const pl: Translation = {
     data: "Bazy danych",
     concepts: "Koncepty",
     tools: "DevOps / narzędzia",
+    spoken: "Języki obce",
     items: {
       html: "HTML",
       css: "CSS",
@@ -69,6 +70,8 @@ export const pl: Translation = {
       testinglibrary: "React Testing Library",
       cursor: "Cursor AI",
       docker: "Docker",
+      polish: "Polski — C2 (ojczysty)",
+      english: "Angielski — B2/C1",
     },
   },
   project: {

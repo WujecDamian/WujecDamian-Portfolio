@@ -4,6 +4,7 @@ import backend from '../../assets/skills/backend.svg'
 import css from '../../assets/skills/css.svg'
 import cursor from '../../assets/skills/cursor.svg'
 import docker from '../../assets/skills/docker.svg'
+import english from '../../assets/skills/english.svg'
 import eslint from '../../assets/skills/eslint.svg'
 import express from '../../assets/skills/express.svg'
 import git from '../../assets/skills/git.svg'
@@ -11,6 +12,7 @@ import html from '../../assets/skills/html.svg'
 import javascript from '../../assets/skills/javascript.svg'
 import nodejs from '../../assets/skills/nodejs.svg'
 import passport from '../../assets/skills/passport.svg'
+import polish from '../../assets/skills/polish.svg'
 import postgresql from '../../assets/skills/postgresql.svg'
 import prisma from '../../assets/skills/prisma.svg'
 import react from '../../assets/skills/react.svg'
@@ -58,4 +60,6 @@ export const skillIcons: Record<SkillId, string> = {
   testinglibrary,
   cursor,
   docker,
+  polish,
+  english,
 }
