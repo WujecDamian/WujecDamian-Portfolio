@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { getProjectCopy } from '../../data/projectCopy'
 import { projects } from '../../data/site'
 import { useLanguage } from '../../i18n'
-import { ArrowRightIcon } from '../BrandIcon'
+import { ArrowRightIcon, ExternalLinkIcon, GitHubIcon } from '../BrandIcon'
 import { Section } from '../Section'
 import { SkillChip } from '../Skills'
 import skillStyles from '../Skills/Skills.module.css'
@@ -28,6 +28,8 @@ export const ProjectCard = () => {
                 to={`/project/${project.id}`}
                 viewTransition
                 className={styles.card__media}
+                style={{ backgroundColor: project.coverBg }}
+                tabIndex={-1}
                 onClick={() => {
                   document.documentElement.dataset.vt = 'forward'
                 }}
@@ -35,9 +37,13 @@ export const ProjectCard = () => {
                 <img
                   src={`/projects/${project.id}/cover.jpg`}
                   alt={copy.title}
+                  width={1200}
+                  height={750}
+                  loading="lazy"
+                  decoding="async"
                 />
               </Link>
-              <div>
+              <div className={styles.card__body}>
                 <h3 className={styles.card__title}>{copy.title}</h3>
                 <p className={styles.card__blurb}>{copy.blurb}</p>
                 <div className={styles.card__stack}>
@@ -63,12 +69,25 @@ export const ProjectCard = () => {
                     {t.project.details}
                     <ArrowRightIcon className={styles.card__ctaIcon} />
                   </Link>
-                  <a href={project.live} target="_blank" rel="noreferrer">
+                  <a
+                    className={styles.card__secondary}
+                    href={project.live}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <ExternalLinkIcon className={styles.card__secondaryIcon} />
                     {t.project.live}
                   </a>
                   {"github" in project ? (
-                    <a href={project.github} target="_blank" rel="noreferrer">
-                      {t.project.github}
+                    <a
+                      className={`${styles.card__secondary} ${styles['card__secondary--icon']}`}
+                      href={project.github}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label={t.project.github}
+                      title={t.project.github}
+                    >
+                      <GitHubIcon className={styles.card__githubIcon} />
                     </a>
                   ) : null}
                 </div>
