@@ -88,6 +88,10 @@ export const en = {
     gitxBlurb:
       "A full-stack social platform for developers, recruiters and companies, inspired by X (Twitter), LinkedIn, Slack and GitHub.",
     gitxStackMore: "+5 more...",
+    autowydatkiTitle: "AutoWydatki",
+    autowydatkiBlurb:
+      "A full-stack web app for tracking car running costs: fuel and EV charging, consumption, services, insurance and inspection reminders. Deployed to production with a public demo account.",
+    autowydatkiStackMore: "+4 more...",
     firefocusTitle: "FireFocus AI",
     firefocusBlurb:
       "A Chrome extension that blocks off-topic pages during a timed focus session. Completely made with Cursor AI. Integrated with Gemini API",
@@ -182,6 +186,9 @@ export const en = {
     built: "What I built",
     screenshots: "Screenshots",
     video: "Video",
+    videoDesktop: "Desktop",
+    videoMobile: "Mobile",
+    playVideo: "Play video",
     result: "Result",
     links: "Links",
     nextProject: "Next project",
@@ -195,6 +202,28 @@ export const en = {
       "I designed and implemented a REST API with GitHub OAuth 2.0 (Passport.js), session storage in Redis, and a relational schema in PostgreSQL (Prisma). Core features include posts, likes, comments, bookmarks, follows, groups, and profiles, plus the React UI that uses them.",
     gitxResult:
       "A working full-stack app is live: auth, social graph, and sessions hang together end to end. It is the project I use to show how I think about APIs, data, and UI together.",
+    autowydatkiProblem:
+      "Car costs are scattered across receipts, notes and spreadsheets: what a fill-up really cost per 100 km, when the insurance or inspection expires, how much the last service was. I wanted one place that answers these questions for several cars, including LPG and electric ones.",
+    autowydatkiBuilt:
+      "A React 19 + Vite frontend with Redux Toolkit (RTK Query), Tailwind CSS 4 and shadcn/ui: multiple cars per account, petrol and LPG fill-ups, EV charging in kWh, services with itemised costs, monthly spending and fuel price charts, OC/AC/inspection reminders, notes and car photos. An Express 5 API on PostgreSQL with Prisma migrations, JWT auth via Passport (email and password or Google) and zod validation. Validation runs in three layers: the browser, the server and CHECK constraints in the database, and amounts are stored in grosze (integers) to avoid floating-point errors. Security covers bcrypt, rate limiting, helmet, strict CORS, per-user data isolation checked by tests, and a mapping against the OWASP Top 10. Photos are re-encoded with sharp and stored in Supabase Storage. Unit, API (supertest on a real PostgreSQL) and component tests run in GitHub Actions on every pull request. Hosted on Cloudflare Pages, Render and Supabase.",
+    autowydatkiResult:
+      "A live app with a public demo account, built and deployed solo. It is the project where I show the engineering around a product: validation, security, tests and CI. The videos show it on desktop and on mobile.",
+    autowydatkiShotDashboard:
+      "Dashboard: upcoming inspection and insurance deadlines, fuel consumption and total car cost.",
+    autowydatkiShotFuel:
+      "Fuel: price chart, fill-up history with consumption, and a form for new fill-ups.",
+    autowydatkiShotService:
+      "Service: repairs and inspections with itemised costs.",
+    autowydatkiShotCar:
+      "Car: photo gallery, details and deadlines.",
+    autowydatkiAltDashboard:
+      "AutoWydatki dashboard in dark theme showing inspection and insurance deadlines, LPG and petrol consumption per 100 km, and a card with the total car cost of 39,307.50 PLN split into purchase, fuel and service.",
+    autowydatkiAltFuel:
+      "AutoWydatki fuel page with summary tiles, a line chart of petrol price per litre rising over time, a list of fill-ups and a form to add a new fill-up.",
+    autowydatkiAltService:
+      "AutoWydatki service page with summary tiles for repair and inspection costs, a list of repairs such as suspension, oil service and front brakes, and a form for a new service entry.",
+    autowydatkiAltCar:
+      "AutoWydatki car page with a large photo of a white Skoda Fabia, a row of three thumbnails and an add photo button.",
     firefocusProblem:
       "Other blockers block for example whole YouTube and it has no sense because there are tutorials on YouTube you still need to watch or similarly you have sites that have bad and good content and you just cannot block whole site because of that instead you have to make checks on specific articles/videos etc. and that's what FireFocus AI does.",
     firefocusBuilt:

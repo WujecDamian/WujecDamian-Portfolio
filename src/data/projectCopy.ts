@@ -44,6 +44,40 @@ export const getProjectCopy = (id: Project["id"], t: Translation) => {
     };
   }
 
+  if (id === "autowydatki") {
+    return {
+      title: t.project.autowydatkiTitle,
+      blurb: t.project.autowydatkiBlurb,
+      stackMore: t.project.autowydatkiStackMore,
+      problemFixes: t.caseStudy.problemFixes,
+      problem: t.caseStudy.autowydatkiProblem,
+      built: t.caseStudy.autowydatkiBuilt,
+      result: t.caseStudy.autowydatkiResult,
+      shots: [
+        {
+          src: "/projects/autowydatki/1-dashboard.webp",
+          caption: t.caseStudy.autowydatkiShotDashboard,
+          alt: t.caseStudy.autowydatkiAltDashboard,
+        },
+        {
+          src: "/projects/autowydatki/2-fuel.webp",
+          caption: t.caseStudy.autowydatkiShotFuel,
+          alt: t.caseStudy.autowydatkiAltFuel,
+        },
+        {
+          src: "/projects/autowydatki/3-service.webp",
+          caption: t.caseStudy.autowydatkiShotService,
+          alt: t.caseStudy.autowydatkiAltService,
+        },
+        {
+          src: "/projects/autowydatki/4-car.webp",
+          caption: t.caseStudy.autowydatkiShotCar,
+          alt: t.caseStudy.autowydatkiAltCar,
+        },
+      ],
+    };
+  }
+
   if (id === "firefocus") {
     return {
       title: t.project.firefocusTitle,

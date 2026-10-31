@@ -90,6 +90,10 @@ export const pl: Translation = {
     gitxBlurb:
       "Fullstackowa platforma społecznościowa dla programistów, rekruterów i firm, inspirowana serwisami X (Twitter), LinkedIn, Slack i GitHub.",
     gitxStackMore: "+5 więcej...",
+    autowydatkiTitle: "AutoWydatki",
+    autowydatkiBlurb:
+      "Aplikacja webowa full-stack do liczenia kosztów utrzymania auta: tankowania i ładowania, spalanie, serwisy oraz przypomnienia o OC i przeglądzie. Wdrożona produkcyjnie, z publicznym kontem demo.",
+    autowydatkiStackMore: "+4 więcej...",
     firefocusTitle: "FireFocus AI",
     firefocusBlurb:
       "Rozszerzenie Chrome, które blokuje strony niezwiązane z tematem podczas sesji nauki. W całości stworzone przy użyciu Cursor AI. Zintegrowane z interfejsem API Gemini",
@@ -183,6 +187,9 @@ export const pl: Translation = {
     built: "Co zbudowałem",
     screenshots: "Zrzuty ekranu",
     video: "Wideo",
+    videoDesktop: "Komputer",
+    videoMobile: "Telefon",
+    playVideo: "Odtwórz wideo",
     result: "Efekt",
     links: "Linki",
     nextProject: "Następny projekt",
@@ -196,6 +203,28 @@ export const pl: Translation = {
       "Zaprojektowałem i wdrożyłem interfejs API REST z wykorzystaniem GitHub OAuth 2.0 (Passport.js), przechowywaniem sesji w Redis oraz schematem relacyjnym w PostgreSQL (Prisma). Do głównych funkcji należą posty, polubienia, komentarze, zakładki, obserwowanie, grupy i profile a także interfejs użytkownika oparty na React, który z nich korzysta.",
     gitxResult:
       "Działająca aplikacja full-stackowa: uwierzytelnianie, funckje społecznościowe i sesje współdziałają ze sobą od backendu po frontend. Jest to projekt, którego używam, aby pokazać, jak postrzegam API, dane i interfejs użytkownika.",
+    autowydatkiProblem:
+      "Koszty auta rozpraszają się po paragonach, notatkach i arkuszach: ile naprawdę kosztuje tankowanie na 100 km, kiedy wygasa OC albo przegląd, ile kosztował ostatni serwis. Chciałem mieć jedno miejsce, które odpowiada na te pytania dla kilku aut, także na LPG i elektrycznych.",
+    autowydatkiBuilt:
+      "Frontend w React 19 + Vite z Redux Toolkit (RTK Query), Tailwind CSS 4 i shadcn/ui: wiele aut na jednym koncie, tankowania benzyny i LPG, ładowania EV w kWh, serwisy z listą pozycji, wykresy miesięcznych wydatków i cen paliwa, przypomnienia o OC/AC/przeglądzie, notatki i zdjęcia aut. API w Express 5 na PostgreSQL z migracjami Prisma, logowanie JWT przez Passport (email i hasło albo Google) oraz walidacja zod. Walidacja działa w trzech warstwach: przeglądarka, serwer i ograniczenia CHECK w bazie, a kwoty są trzymane w groszach (liczby całkowite), żeby uniknąć błędów zmiennoprzecinkowych. Bezpieczeństwo to bcrypt, rate limiting, helmet, ścisły CORS, izolacja danych użytkowników sprawdzana testami i zestawienie z OWASP Top 10. Zdjęcia są ponownie kodowane przez sharp i trafiają do Supabase Storage. Testy jednostkowe, API (supertest na prawdziwym PostgreSQL) i komponentowe działają w GitHub Actions przy każdym pull requeście. Hosting: Cloudflare Pages, Render i Supabase.",
+    autowydatkiResult:
+      "Działająca aplikacja z publicznym kontem demo, zbudowana i wdrożona samodzielnie. To projekt, w którym pokazuję inżynierię wokół produktu: walidację, bezpieczeństwo, testy i CI. Filmy pokazują ją na komputerze i na telefonie.",
+    autowydatkiShotDashboard:
+      "Pulpit: nadchodzące terminy przeglądu i OC, spalanie oraz łączny koszt auta.",
+    autowydatkiShotFuel:
+      "Paliwo: wykres cen, historia tankowań ze spalaniem i formularz nowego tankowania.",
+    autowydatkiShotService:
+      "Serwis: naprawy i badania techniczne z listą pozycji i kosztami.",
+    autowydatkiShotCar:
+      "Auto: galeria zdjęć, dane auta i terminy.",
+    autowydatkiAltDashboard:
+      "Pulpit AutoWydatki w ciemnym motywie: terminy badania technicznego i OC, spalanie LPG i benzyny na 100 km oraz karta z łącznym kosztem auta 39 307,50 zł podzielonym na zakup, paliwo i serwis.",
+    autowydatkiAltFuel:
+      "Strona Paliwo w AutoWydatki: kafelki z podsumowaniem, wykres liniowy rosnącej ceny benzyny za litr, lista tankowań i formularz nowego tankowania.",
+    autowydatkiAltService:
+      "Strona Serwis w AutoWydatki: kafelki z kosztami napraw i badań, lista napraw (zawieszenie, serwis olejowy, hamulce przód) i formularz nowego wpisu serwisowego.",
+    autowydatkiAltCar:
+      "Strona Auto w AutoWydatki: duże zdjęcie białej Skody Fabii, trzy miniatury i przycisk dodawania zdjęć.",
     firefocusProblem:
       "Inne programy blokujące blokują na przykład całą witrynę YouTube, co nie ma sensu, ponieważ na YouTube znajdują się tutoriale, które są przydatne, lub podobnie są strony zawierające zarówno złe, jak i dobre treści, więc nie można z tego powodu blokować całej witryny; zamiast tego trzeba sprawdzać konkretne artykuły, filmy itp., i właśnie to robi FireFocus AI.",
     firefocusBuilt:

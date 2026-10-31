@@ -19,6 +19,29 @@ export const gitx = {
   stack: ['postgresql', 'express', 'react', 'nodejs'] as const,
 }
 
+export const autowydatki = {
+  id: 'autowydatki',
+  github: 'https://github.com/WujecDamian/Autowydatki',
+  live: 'https://autowydatki.wujecdamian.dev/',
+  coverBg: '#ebe9ea',
+  youtube: 'tw0GqrkYquM',
+  youtubeMobile: 'hHz9i07QmRo',
+  stack: [
+    'react',
+    'redux',
+    'rtkquery',
+    'tailwind',
+    'shadcn',
+    'nodejs',
+    'express',
+    'passport',
+    'postgresql',
+    'prisma',
+    'vitest',
+    'testinglibrary',
+  ] as const,
+}
+
 export const firefocus = {
   id: 'firefocus',
   live: 'https://firefocusai.com/',
@@ -56,6 +79,6 @@ export const wiadomosci = {
   stack: ['react', 'redux', 'rtkquery', 'tailwind', 'shadcn', 'vitest'] as const,
 }
 
-export const projects = [gitx, firefocus, wiadomosci, waldo] as const
+export const projects = [gitx, autowydatki, firefocus, wiadomosci, waldo] as const
 
 export type Project = (typeof projects)[number]

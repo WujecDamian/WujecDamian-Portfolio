@@ -10,6 +10,7 @@ import {
   GitHubIcon,
 } from '../../components/BrandIcon'
 import { Lightbox } from '../../components/Lightbox'
+import { YouTubeEmbed } from '../../components/YouTubeEmbed'
 import { SkillChip } from '../../components/Skills'
 import skillStyles from '../../components/Skills/Skills.module.css'
 import styles from './ProjectPage.module.css'
@@ -45,7 +46,7 @@ export const ProjectPage = () => {
     'shots' in copy && copy.shots
       ? copy.shots.map((shot) => ({
           ...shot,
-          alt: `${copy.title}: ${shot.caption}`,
+          alt: 'alt' in shot ? shot.alt : `${copy.title}: ${shot.caption}`,
         }))
       : null
   const next = projects[(projectIndex + 1) % projects.length]
@@ -79,14 +80,26 @@ export const ProjectPage = () => {
       {"youtube" in project ? (
         <section className={styles.block} data-reveal>
           <h2 className={styles.block__title}>{t.caseStudy.video}</h2>
-          <div className={styles.video}>
-            <iframe
-              src={`https://www.youtube-nocookie.com/embed/${project.youtube}`}
-              title={copy.title}
-              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              loading="lazy"
-              allowFullScreen
-            />
+          <div className={styles.videos}>
+            <figure className={styles.videos__item}>
+              <div className={styles.video}>
+                <YouTubeEmbed id={project.youtube} title={copy.title} />
+              </div>
+              {"youtubeMobile" in project ? (
+                <figcaption>{t.caseStudy.videoDesktop}</figcaption>
+              ) : null}
+            </figure>
+            {"youtubeMobile" in project ? (
+              <figure className={styles.videos__item}>
+                <div className={styles.video}>
+                  <YouTubeEmbed
+                    id={project.youtubeMobile}
+                    title={`${copy.title} (${t.caseStudy.videoMobile})`}
+                  />
+                </div>
+                <figcaption>{t.caseStudy.videoMobile}</figcaption>
+              </figure>
+            ) : null}
           </div>
         </section>
       ) : null}
