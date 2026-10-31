@@ -1,0 +1,25 @@
+# Damian Wujec
+
+> Junior full-stack developer (PostgreSQL, Express, React, Node.js) based in Biłgoraj, Poland, looking for a first junior full-stack or front-end role. This site is a single-page portfolio, available in English and Polish, with a case-study page for each project.
+
+Contact: wujecdamian12@gmail.com · +48 695 227 457
+
+## Profile
+
+- [Portfolio home](https://wujecdamian.dev/): about, skills, projects, education, experience and contact in one page
+- [CV (PDF)](https://wujecdamian.dev/Damian-Wujec-CV.pdf): full résumé
+- [GitHub](https://github.com/WujecDamian): source code of all projects
+- [LinkedIn](https://www.linkedin.com/in/damian-wujec-5b8a233ab/): professional profile
+
+## Projects
+
+- [GitX](https://wujecdamian.dev/project/gitx): full-stack social platform for developers, recruiters and companies (PostgreSQL, Express, React, Node.js). [Live](https://gitx.wujecdamian.dev/) · [Code](https://github.com/WujecDamian/gitX)
+- [AutoWydatki](https://wujecdamian.dev/project/autowydatki): car running-cost tracker with fuel/EV charging, services and reminders (React, Redux Toolkit, Prisma, PostgreSQL, Passport.js). [Live](https://autowydatki.wujecdamian.dev/) · [Code](https://github.com/WujecDamian/Autowydatki)
+- [FireFocus AI](https://wujecdamian.dev/project/firefocus): Chrome extension that blocks off-topic pages during a focus session, using the Gemini API. [Live](https://firefocusai.com/)
+- [Messages CRUD](https://wujecdamian.dev/project/wiadomosci): small full-stack CRUD app with validation, 44 tests, CI and deployment. [Live](https://wiadomosci.wujecdamian.dev) · [Code](https://github.com/WujecDamian/CRUD_wiadomosci)
+- [Where's Waldo?](https://wujecdamian.dev/project/waldo): photo-tagging game with server-side timing and a leaderboard. [Live](https://wujec-wheres-waldo.netlify.app/) · [Code](https://github.com/WujecDamian/odin-Wheres-Waldo)
+
+## Optional
+
+- [Agent resource manifest](https://wujecdamian.dev/.well-known/ard.json): ARD manifest for this site
+- [Sitemap](https://wujecdamian.dev/sitemap.xml)

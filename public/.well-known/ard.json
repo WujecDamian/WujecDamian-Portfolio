@@ -1,0 +1,34 @@
+{
+  "entries": [
+    {
+      "identifier": "urn:air:wujecdamian.dev:portfolio",
+      "displayName": "Damian Wujec — Portfolio",
+      "type": "text/html",
+      "url": "https://wujecdamian.dev/",
+      "description": "Portfolio of Damian Wujec, a junior full-stack developer (PostgreSQL, Express, React, Node.js): projects, skills, education, experience, CV and contact details.",
+      "tags": [
+        "portfolio",
+        "full-stack",
+        "react",
+        "nodejs",
+        "postgresql"
+      ],
+      "representativeQueries": [
+        "Who is Damian Wujec and what does he build?",
+        "Show Damian Wujec's full-stack projects",
+        "How can I contact Damian Wujec about a junior developer role?"
+      ]
+    },
+    {
+      "identifier": "urn:air:wujecdamian.dev:cv",
+      "displayName": "Damian Wujec — CV",
+      "type": "application/pdf",
+      "url": "https://wujecdamian.dev/Damian-Wujec-CV.pdf",
+      "description": "Curriculum vitae of Damian Wujec.",
+      "representativeQueries": [
+        "Get Damian Wujec's CV",
+        "What is Damian Wujec's work experience and education?"
+      ]
+    }
+  ]
+}

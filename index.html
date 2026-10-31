@@ -12,6 +12,40 @@
     <meta name="author" content="Damian Wujec" />
     <meta name="theme-color" content="#ffffff" />
     <link rel="canonical" href="https://wujecdamian.dev/" />
+    <link rel="alternate" type="text/markdown" href="/llms.txt" title="llms.txt" />
+    <link rel="ard" type="application/json" href="/.well-known/ard.json" />
+    <link rel="preload" as="image" href="/portrait.webp" type="image/webp" fetchpriority="high" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://wujecdamian.dev/#website",
+            "url": "https://wujecdamian.dev/",
+            "name": "Damian Wujec",
+            "inLanguage": ["en", "pl"],
+            "publisher": { "@id": "https://wujecdamian.dev/#person" }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://wujecdamian.dev/#person",
+            "name": "Damian Wujec",
+            "jobTitle": "Junior Full Stack Developer",
+            "url": "https://wujecdamian.dev/",
+            "image": "https://wujecdamian.dev/portrait.jpg",
+            "email": "mailto:wujecdamian12@gmail.com",
+            "telephone": "+48695227457",
+            "address": { "@type": "PostalAddress", "addressLocality": "Biłgoraj", "addressCountry": "PL" },
+            "knowsAbout": ["JavaScript", "TypeScript", "React", "Node.js", "Express", "PostgreSQL", "Prisma", "Redux Toolkit", "Tailwind CSS"],
+            "sameAs": [
+              "https://github.com/WujecDamian",
+              "https://www.linkedin.com/in/damian-wujec-5b8a233ab/"
+            ]
+          }
+        ]
+      }
+    </script>
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Damian Wujec" />
@@ -38,6 +72,16 @@
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <h1>Damian Wujec — Junior Full Stack Developer</h1>
+      <p>
+        PostgreSQL · Express · React · Node.js. Looking for a first junior full-stack or front-end
+        role. This site needs JavaScript; a plain-text summary is available in
+        <a href="/llms.txt">llms.txt</a>, the CV is at
+        <a href="/Damian-Wujec-CV.pdf">Damian-Wujec-CV.pdf</a>, and contact is
+        <a href="mailto:wujecdamian12@gmail.com">wujecdamian12@gmail.com</a>.
+      </p>
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
