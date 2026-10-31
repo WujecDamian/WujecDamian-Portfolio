@@ -2,14 +2,18 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import { Layout } from './components/Layout'
 import { LanguageProvider } from './i18n'
 import { HomePage } from './pages/HomePage'
-import { ProjectPage } from './pages/ProjectPage'
 
 const router = createBrowserRouter([
   {
     element: <Layout />,
     children: [
       { path: '/', element: <HomePage /> },
-      { path: '/project/:projectId', element: <ProjectPage /> },
+      {
+        path: '/project/:projectId',
+        lazy: async () => ({
+          Component: (await import('./pages/ProjectPage')).ProjectPage,
+        }),
+      },
     ],
   },
 ])
