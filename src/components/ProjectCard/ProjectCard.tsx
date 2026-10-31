@@ -35,7 +35,7 @@ export const ProjectCard = () => {
                 }}
               >
                 <img
-                  src={`/projects/${project.id}/cover.jpg`}
+                  src={`/projects/${project.id}/cover.webp`}
                   alt={copy.title}
                   width={1200}
                   height={750}

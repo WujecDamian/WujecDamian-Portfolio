@@ -178,7 +178,7 @@ export const ProjectPage = () => {
       >
         <img
           className={styles.next__cover}
-          src={`/projects/${next.id}/cover.jpg`}
+          src={`/projects/${next.id}/cover.webp`}
           alt=""
           width={1200}
           height={750}

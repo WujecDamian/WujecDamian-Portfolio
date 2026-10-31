@@ -6,6 +6,7 @@ export const site = {
   linkedin: 'https://www.linkedin.com/in/damian-wujec-5b8a233ab/',
   cvPath: '/Damian-Wujec-CV.pdf',
   portraitPath: '/portrait.jpg',
+  portraitWebpPath: '/portrait.webp',
   location: 'Biłgoraj, Poland',
 }
 

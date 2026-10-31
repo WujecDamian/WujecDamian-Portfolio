@@ -130,6 +130,12 @@
   background: var(--bg-subtle);
 }
 
+.hero__portrait picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .hero__portrait img {
   width: 100%;
   height: 100%;

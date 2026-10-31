@@ -67,14 +67,17 @@ export const Hero = () => {
         </div>
       </div>
       <div className={styles.hero__portrait}>
-        <img
-          src={site.portraitPath}
-          alt={t.hero.portraitAlt}
-          width={1200}
-          height={1500}
-          fetchPriority="high"
-          decoding="async"
-        />
+        <picture>
+          <source srcSet={site.portraitWebpPath} type="image/webp" />
+          <img
+            src={site.portraitPath}
+            alt={t.hero.portraitAlt}
+            width={1200}
+            height={1500}
+            fetchPriority="high"
+            decoding="async"
+          />
+        </picture>
       </div>
     </section>
   )

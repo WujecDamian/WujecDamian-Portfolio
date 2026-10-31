@@ -13,31 +13,31 @@ export const getProjectCopy = (id: Project["id"], t: Translation) => {
       result: t.caseStudy.gitxResult,
       shots: [
         {
-          src: "/projects/gitx/HomeScreen.jpg",
+          src: "/projects/gitx/HomeScreen.webp",
           caption: t.caseStudy.gitxShotHome,
         },
         {
-          src: "/projects/gitx/ExploreScreen.jpg",
+          src: "/projects/gitx/ExploreScreen.webp",
           caption: t.caseStudy.gitxShotExplore,
         },
         {
-          src: "/projects/gitx/GroupScreen.jpg",
+          src: "/projects/gitx/GroupScreen.webp",
           caption: t.caseStudy.gitxShotGroup,
         },
         {
-          src: "/projects/gitx/ProfileScreen.jpg",
+          src: "/projects/gitx/ProfileScreen.webp",
           caption: t.caseStudy.gitxShotProfile,
         },
         {
-          src: "/projects/gitx/EditScreen.jpg",
+          src: "/projects/gitx/EditScreen.webp",
           caption: t.caseStudy.gitxShotProfileEdit,
         },
         {
-          src: "/projects/gitx/RecruiterScreen.jpg",
+          src: "/projects/gitx/RecruiterScreen.webp",
           caption: t.caseStudy.gitxShotRecruiter,
         },
         {
-          src: "/projects/gitx/CandidateScreen.jpg",
+          src: "/projects/gitx/CandidateScreen.webp",
           caption: t.caseStudy.gitxShotCandidate,
         },
       ],
@@ -78,12 +78,12 @@ export const getProjectCopy = (id: Project["id"], t: Translation) => {
     result: t.caseStudy.waldoResult,
     shots: [
       {
-        src: "/projects/waldo/levels.jpg",
+        src: "/projects/waldo/levels.webp",
         caption: t.caseStudy.waldoShotLevels,
       },
-      { src: "/projects/waldo/play.jpg", caption: t.caseStudy.waldoShotPlay },
+      { src: "/projects/waldo/play.webp", caption: t.caseStudy.waldoShotPlay },
       {
-        src: "/projects/waldo/board.jpg",
+        src: "/projects/waldo/board.webp",
         caption: t.caseStudy.waldoShotBoard,
       },
     ],
