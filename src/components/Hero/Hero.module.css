@@ -35,6 +35,7 @@
 }
 
 .hero__contactLink {
+  position: relative;
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -53,6 +54,14 @@
   translate: var(--hover-lift-sm);
   border-color: var(--accent);
   background: var(--bg-subtle);
+}
+
+/* Covers the gap left by the lift, or a pointer at the edge makes hover flicker.
+   Hover-only: at rest it would start the same loop from just below the pill. */
+.hero__contactLink:hover::after {
+  content: '';
+  position: absolute;
+  inset: -1px -1px -3px;
 }
 
 .hero__contactIcon {
