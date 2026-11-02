@@ -20,11 +20,12 @@
   box-shadow: var(--glass-shadow);
   font-size: 14px;
   text-decoration: none;
-  transition: background-color 160ms ease;
+  transition: var(--hover-control);
 }
 
 .page__back:hover {
   text-decoration: none;
+  translate: var(--hover-lift-sm);
   background: var(--glass-bg-strong);
 }
 
@@ -32,11 +33,11 @@
   width: 16px;
   height: 16px;
   flex-shrink: 0;
-  transition: translate 200ms ease;
+  transition: translate var(--hover-fast);
 }
 
 .page__back:hover .page__backIcon {
-  translate: -3px 0;
+  translate: calc(var(--hover-nudge) * -1) 0;
 }
 
 .page__title {
@@ -102,11 +103,11 @@
 
 .shot__btn img {
   width: 100%;
-  transition: scale 400ms ease;
+  transition: scale var(--hover-slow);
 }
 
 .shot__btn:hover img {
-  scale: 1.02;
+  scale: var(--hover-zoom);
 }
 
 .shot figcaption {
@@ -158,6 +159,7 @@
   border-radius: var(--radius-pill);
   font-size: 17px;
   text-decoration: none;
+  transition: var(--hover-control);
 }
 
 .link__icon {
@@ -168,6 +170,7 @@
 
 .link:hover {
   text-decoration: none;
+  translate: var(--hover-lift-sm);
 }
 
 .link--live {
@@ -199,15 +202,13 @@
   box-shadow: var(--shadow);
   color: inherit;
   text-decoration: none;
-  transition:
-    box-shadow 240ms ease,
-    translate 240ms ease;
+  transition: var(--hover-card);
 }
 
 .next:hover {
   text-decoration: none;
-  translate: 0 -3px;
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+  translate: var(--hover-lift-lg);
+  box-shadow: var(--hover-shadow-card);
 }
 
 .next__cover {
@@ -215,6 +216,11 @@
   flex-shrink: 0;
   border-radius: var(--radius-md);
   background: var(--bg-subtle);
+  transition: scale var(--hover-slow);
+}
+
+.next:hover .next__cover {
+  scale: var(--hover-zoom);
 }
 
 .next__text {
@@ -242,11 +248,11 @@
   height: 24px;
   flex-shrink: 0;
   color: var(--accent);
-  transition: translate 200ms ease;
+  transition: translate var(--hover-fast);
 }
 
 .next:hover .next__icon {
-  translate: 4px 0;
+  translate: var(--hover-nudge) 0;
 }
 
 @media (max-width: 720px) {
@@ -256,15 +262,6 @@
 
   .next__title {
     font-size: 19px;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .shot__btn img,
-  .page__backIcon,
-  .next,
-  .next__icon {
-    transition: none;
   }
 }
 

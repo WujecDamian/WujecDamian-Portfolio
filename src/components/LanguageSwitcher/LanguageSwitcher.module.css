@@ -21,10 +21,11 @@
   padding: 4px 10px;
   border-radius: var(--radius-pill);
   cursor: pointer;
-  transition:
-    background-color 160ms ease,
-    color 160ms ease,
-    box-shadow 160ms ease;
+  transition: var(--hover-control);
+}
+
+.switcher__btn:hover {
+  color: var(--text);
 }
 
 .switcher__btn--active {

@@ -21,6 +21,7 @@
   border-radius: var(--radius-pill);
   font-size: 17px;
   text-decoration: none;
+  transition: var(--hover-control);
 }
 
 .icon {
@@ -31,6 +32,7 @@
 
 .link:hover {
   text-decoration: none;
+  translate: var(--hover-lift-sm);
 }
 
 .link--email {
@@ -66,5 +68,5 @@
 }
 
 .link--cv:hover {
-  background: #ececef;
+  background: var(--bg-subtle-hover);
 }

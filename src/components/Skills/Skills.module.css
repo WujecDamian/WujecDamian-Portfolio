@@ -41,16 +41,13 @@
   font-size: 14px;
   line-height: 1.2;
   color: var(--text);
-  transition:
-    background-color 160ms ease,
-    border-color 160ms ease,
-    transform 160ms ease;
+  transition: var(--hover-control);
 }
 
 .skills__item:hover {
   background: var(--bg-subtle);
   border-color: var(--text-muted);
-  transform: translateY(-1px);
+  translate: var(--hover-lift-sm);
 }
 
 .skills__icon {
