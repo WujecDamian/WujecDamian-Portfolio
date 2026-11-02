@@ -47,19 +47,7 @@ export const firefocus = {
   live: 'https://firefocusai.com/',
   coverBg: '#f5f5f7',
   youtube: 'xRIn7KvsmrA',
-  stack: [
-    'gemini',
-    'embeddings',
-    'llmevals',
-    'bigquery',
-    'googlecloud',
-    'react',
-    'typescript',
-    'nodejs',
-    'express',
-    'postgresql',
-    'cursor',
-  ] as const,
+  stack: ['react', 'typescript', 'nodejs', 'express', 'postgresql', 'cursor'] as const,
 }
 
 export const waldo = {

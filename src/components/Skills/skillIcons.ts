@@ -1,21 +1,16 @@
 import authentication from '../../assets/skills/authentication.svg'
 import authorization from '../../assets/skills/authorization.svg'
 import backend from '../../assets/skills/backend.svg'
-import bigquery from '../../assets/skills/bigquery.svg'
 import claudecode from '../../assets/skills/claudecode.svg'
 import css from '../../assets/skills/css.svg'
 import cursor from '../../assets/skills/cursor.svg'
 import docker from '../../assets/skills/docker.svg'
-import embeddings from '../../assets/skills/embeddings.svg'
 import english from '../../assets/skills/english.svg'
 import eslint from '../../assets/skills/eslint.svg'
 import express from '../../assets/skills/express.svg'
-import gemini from '../../assets/skills/gemini.svg'
 import git from '../../assets/skills/git.svg'
-import googlecloud from '../../assets/skills/googlecloud.svg'
 import html from '../../assets/skills/html.svg'
 import javascript from '../../assets/skills/javascript.svg'
-import llmevals from '../../assets/skills/llmevals.svg'
 import nodejs from '../../assets/skills/nodejs.svg'
 import passport from '../../assets/skills/passport.svg'
 import polish from '../../assets/skills/polish.svg'
@@ -55,10 +50,6 @@ export const skillIcons: Record<SkillId, string> = {
   socketio,
   postgresql,
   redis,
-  bigquery,
-  gemini,
-  embeddings,
-  llmevals,
   rest,
   authentication,
   authorization,
@@ -71,7 +62,6 @@ export const skillIcons: Record<SkillId, string> = {
   cursor,
   claudecode,
   docker,
-  googlecloud,
   polish,
   english,
 }

@@ -21,11 +21,7 @@ export const skillGroups = [
   },
   {
     labelKey: 'data',
-    items: ['postgresql', 'redis', 'bigquery'],
-  },
-  {
-    labelKey: 'ai',
-    items: ['gemini', 'embeddings', 'llmevals'],
+    items: ['postgresql', 'redis'],
   },
   {
     labelKey: 'concepts',
@@ -33,7 +29,7 @@ export const skillGroups = [
   },
   {
     labelKey: 'tools',
-    items: ['git', 'eslint', 'vitest', 'testinglibrary', 'cursor', 'claudecode', 'docker', 'googlecloud'],
+    items: ['git', 'eslint', 'vitest', 'testinglibrary', 'cursor', 'claudecode', 'docker'],
   },
   {
     labelKey: 'spoken',
